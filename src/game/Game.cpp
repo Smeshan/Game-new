@@ -18,6 +18,8 @@ int32_t Game::init(const GameConfig& config) {
     ringSFX.create(config.ringSFXId);
     //ringtoneMusic.create();
 
+    //"../resources/sounds/sound.wav"
+
     return EXIT_SUCCESS;
 }
 
@@ -26,7 +28,7 @@ void Game::draw() {
     helloText.draw();
 }
 
-void Game::handleEvent([[maybe_unused]] const InputEvent& e) {
+void Game::handleEvent(const InputEvent& e) {
     if (TouchEvent::KEYBOARD_PRESS != e.type) {
         return;
     }

@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 ../manager_utils/include/manager_utils/audio/Audio.h
+cstdint
+-
 
 ../manager_utils/include/manager_utils/audio/Sound.h
 cstdint
@@ -241,6 +243,8 @@ manager_utils/managers/DrawMgr.h
 /home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
 manager_utils/managers/RsrcMgr.h
 /home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
+manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
 
 /home/smeshan/workspace/SFX/manager_utils/src/managers/MediaMgr.cpp
 manager_utils/managers/MediaMgr.h

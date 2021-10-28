@@ -15,13 +15,13 @@ void Audio::play() {
     if (_isPlaying) {
         std::cerr << "Audio file is currently playing." << std::endl;
     }
-    //gMediaMgr->addPlayCmd();
+    gMediaMgr->addPlaySoundCmd(_sndId);
     _isPlaying = true;
 }
 
 void Audio::stop() {
     if (!_isPlaying) {
-        std::cerr << "Audio file is already stopeed." << std::endl;
+        std::cerr << "Audio file is already stoped." << std::endl;
     }
     _isPlaying = false;
 }

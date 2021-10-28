@@ -10,11 +10,11 @@
 #include "manager_utils/managers/MgrBase.h"
 #include "sdl_utils/containers/SoundContainer.h"
 
-/* Forward Declaration */	
+/* Forward Declaration */
 struct MediaMgrConfig;
 
 class MediaMgr : public MgrBase,
-				public SoundContainer {
+				 public SoundContainer {
 public:
 	MediaMgr() = default;
 
@@ -25,6 +25,8 @@ public:
 	MediaMgr& operator=(MediaMgr&& other) = delete;
 
 	int32_t init(const MediaMgrConfig& config);
+
+	void addPlaySoundCmd(const int32_t sndId);
 
 	void deinit() final;
 	void process() final;

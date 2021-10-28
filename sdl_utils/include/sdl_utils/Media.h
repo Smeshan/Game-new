@@ -22,7 +22,6 @@ public:
 	static void freeSound(Mix_Chunk*& sound);
 	static void freeMusic(Mix_Music*& music);
 
-private:
 
 };
 #endif

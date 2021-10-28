@@ -57,6 +57,8 @@ unordered_map
 -
 
 ../manager_utils/include/manager_utils/audio/Audio.h
+cstdint
+-
 
 ../manager_utils/include/manager_utils/audio/Sound.h
 cstdint

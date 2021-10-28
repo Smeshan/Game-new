@@ -14,11 +14,12 @@
 /* Forward Declaration */
 struct Mix_Chunk;
 
-class SoundContainer  {
-	public:
-
+class SoundContainer {
+public:
+	
 protected:
 
+	int32_t playSoundCmd(const int32_t sndId);
 	int32_t init(const SoundContainerConfig& configs);
 	void deinit();
 

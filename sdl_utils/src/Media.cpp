@@ -14,8 +14,8 @@
 int32_t Media::createSoundFromFile(const char* filePath, Mix_Chunk*& outSound) {
     outSound = Mix_LoadWAV(filePath);
     if (outSound == nullptr) {
-        std::cerr << "Failed to load music! SDL_mixer Error: "
-            << Mix_GetError() << std::endl;
+        std::cerr << "Failed to load sound! Filepath: " << filePath
+        << ". SDL_mixer Error: "<< Mix_GetError() << std::endl;
         return EXIT_FAILURE;
     }
     return EXIT_SUCCESS;

@@ -74,6 +74,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ..
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/config/RsrcMgrConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/DrawMgr.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/ManagerHandler.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/MediaMgr.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/MgrBase.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/RsrcMgr.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/Monitor.h
@@ -83,6 +84,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ..
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/config/TextContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/containers/ImageContainer.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/containers/TextContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../utils/include/utils/drawing/DrawParams.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../utils/include/utils/drawing/Point.h

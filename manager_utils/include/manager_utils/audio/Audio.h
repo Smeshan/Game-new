@@ -3,6 +3,7 @@
 /* C system icnludes */
 
 /* C++ system icnludes */
+#include <cstdint>
 
 /* Third-party icnludes */
 
@@ -20,6 +21,8 @@ protected:
 	bool _isCreated = false;
 	bool _isDestroyed = true;
 	bool _isPlaying = false;
+
+	int32_t _sndId;
 };
 
 #endif

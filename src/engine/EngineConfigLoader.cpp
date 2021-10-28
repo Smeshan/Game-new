@@ -85,6 +85,8 @@ static void populateGameConfig(GameConfig& outConfig) {
 
     outConfig.textFondId = FontId::ANGELINE_VINTAGE;
 
+    outConfig.ringSFXId = MediaId::RING_SFX;
+
 }
 
 

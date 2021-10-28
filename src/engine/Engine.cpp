@@ -64,7 +64,7 @@ void Engine::drawFrame() {
     gDrawMgr->clearScreen();
 
     _game.draw();
-
+    
     gDrawMgr->finishFrame();
 }
 

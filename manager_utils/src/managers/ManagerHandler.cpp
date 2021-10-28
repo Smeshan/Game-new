@@ -12,6 +12,7 @@
 #include "manager_utils/config/ManagerHandlerConfig.h"
 #include "manager_utils/managers/DrawMgr.h"
 #include "manager_utils/managers/RsrcMgr.h"
+#include "manager_utils/managers/MediaMgr.h"
 
 int32_t ManagerHandler::init(const ManagerHandlerConfig& config) {
     gDrawMgr = new DrawMgr();
@@ -36,8 +37,20 @@ int32_t ManagerHandler::init(const ManagerHandlerConfig& config) {
         return EXIT_FAILURE;
     }
 
+    gMediaMgr = new MediaMgr();
+    if (gMediaMgr == nullptr) {
+        std::cerr << "Erorr, bad alloc for gMediaMgr" << std::endl;
+        return EXIT_FAILURE;
+    }
+
+    if (EXIT_SUCCESS != gMediaMgr->init(config.mediaMgrConfig)) {
+        std::cerr << "gMediaMgr->init() failed." << std::endl;
+        return EXIT_FAILURE;
+    }
+
     _managers[DRAW_MGR_INDX] = static_cast<MgrBase*>(gDrawMgr);
     _managers[RSRC_MGR_INDX] = static_cast<MgrBase*>(gRsrcMgr);
+    _managers[MEDIA_MGR_INDX] = static_cast<MgrBase*>(gMediaMgr);
 
     return EXIT_SUCCESS;
 }

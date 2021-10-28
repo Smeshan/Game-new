@@ -23,8 +23,15 @@ int32_t MediaMgr::init(const MediaMgrConfig& config) {
         std::cerr << "MusicContainer::init() failed." << std::endl;
         return EXIT_FAILURE;
     } */
+       
 
     return EXIT_SUCCESS;
+}
+
+void MediaMgr::addPlaySoundCmd(const int32_t sndId) {
+    SoundContainer::playSoundCmd(sndId);   
+    //QUESTION
+    // why is not working with _soundContainer.playSoundCmd(sndId):
 }
 
 void MediaMgr::deinit() {
