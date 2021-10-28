@@ -1,0 +1,12 @@
+/home/smeshan/workspace/SFX/build/CMakeFiles/rebuild_cache.dir
+/home/smeshan/workspace/SFX/build/CMakeFiles/sfx.dir
+/home/smeshan/workspace/SFX/build/CMakeFiles/edit_cache.dir
+/home/smeshan/workspace/SFX/build/utils/CMakeFiles/rebuild_cache.dir
+/home/smeshan/workspace/SFX/build/utils/CMakeFiles/utils.dir
+/home/smeshan/workspace/SFX/build/utils/CMakeFiles/edit_cache.dir
+/home/smeshan/workspace/SFX/build/sdl_utils/CMakeFiles/rebuild_cache.dir
+/home/smeshan/workspace/SFX/build/sdl_utils/CMakeFiles/sdl_utils.dir
+/home/smeshan/workspace/SFX/build/sdl_utils/CMakeFiles/edit_cache.dir
+/home/smeshan/workspace/SFX/build/manager_utils/CMakeFiles/rebuild_cache.dir
+/home/smeshan/workspace/SFX/build/manager_utils/CMakeFiles/manager_utils.dir
+/home/smeshan/workspace/SFX/build/manager_utils/CMakeFiles/edit_cache.dir

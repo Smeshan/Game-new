@@ -1,0 +1,24 @@
+- HEADER -
+
+/* C system icnludes */
+
+/* C++ system icnludes */
+
+/* Third-party icnludes */
+
+/* Own icnludes */
+
+/* Forward Declaration */
+
+-----------------------------------------
+- CPP - 
+
+/* Corresponding header */
+
+/* C system icnludes */
+
+/* C++ system icnludes */
+
+/* Third-party icnludes */
+
+/* Own icnludes */
