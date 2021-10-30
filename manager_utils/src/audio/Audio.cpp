@@ -12,9 +12,6 @@
 #include "manager_utils/managers/MediaMgr.h"
 
 void Audio::play() {
-    if (_isPlaying) {
-        std::cerr << "Audio file is currently playing." << std::endl;
-    }
     gMediaMgr->addPlaySoundCmd(_sndId);
     _isPlaying = true;
 }

@@ -20,6 +20,7 @@ namespace TextureId {
         LAYER_2,
         DOWN,
         GAMEMAP,
+        CONSOLE,
         RES_COUNT
     };
 
@@ -28,6 +29,7 @@ namespace TextureId {
 namespace FontId {
     enum FontIdKeys {
         ANGELINE_VINTAGE,
+        TERMINAL,
         FONT_COUNT
     };
 }
@@ -35,6 +37,7 @@ namespace FontId {
 namespace MediaId {
     enum SoundIds {
         RING_SFX,
+        SINGLE_KEY_TYPE,
         SOUNDS_COUNT
     };
 }

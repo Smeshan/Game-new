@@ -7,7 +7,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o
  ../manager_utils/include/manager_utils/managers/MgrBase.h
  ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
  ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
- /home/smeshan/workspace/SFX/manager_utils/src/audio/Audio.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/audio/Audio.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o
  ../manager_utils/include/manager_utils/audio/Audio.h
  ../manager_utils/include/manager_utils/audio/Sound.h
@@ -15,7 +15,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o
  ../manager_utils/include/manager_utils/managers/MgrBase.h
  ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
  ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
- /home/smeshan/workspace/SFX/manager_utils/src/audio/Sound.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/audio/Sound.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o
  ../manager_utils/include/manager_utils/drawing/Image.h
  ../manager_utils/include/manager_utils/drawing/Widget.h
@@ -28,7 +28,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o
  ../utils/include/utils/drawing/DrawParams.h
  ../utils/include/utils/drawing/Point.h
  ../utils/include/utils/drawing/Rectangle.h
- /home/smeshan/workspace/SFX/manager_utils/src/drawing/Image.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/drawing/Image.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o
  ../manager_utils/include/manager_utils/drawing/Text.h
  ../manager_utils/include/manager_utils/drawing/Widget.h
@@ -42,7 +42,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o
  ../utils/include/utils/drawing/DrawParams.h
  ../utils/include/utils/drawing/Point.h
  ../utils/include/utils/drawing/Rectangle.h
- /home/smeshan/workspace/SFX/manager_utils/src/drawing/Text.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/drawing/Text.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o
  ../manager_utils/include/manager_utils/drawing/Widget.h
  ../manager_utils/include/manager_utils/managers/DrawMgr.h
@@ -51,7 +51,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o
  ../sdl_utils/include/sdl_utils/Renderer.h
  ../utils/include/utils/drawing/DrawParams.h
  ../utils/include/utils/drawing/Point.h
- /home/smeshan/workspace/SFX/manager_utils/src/drawing/Widget.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/drawing/Widget.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o
  ../manager_utils/include/manager_utils/config/DrawMgrConfig.h
  ../manager_utils/include/manager_utils/managers/DrawMgr.h
@@ -67,7 +67,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o
  ../utils/include/utils/drawing/DrawParams.h
  ../utils/include/utils/drawing/Point.h
  ../utils/include/utils/drawing/Rectangle.h
- /home/smeshan/workspace/SFX/manager_utils/src/managers/DrawMgr.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/managers/DrawMgr.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o
  ../manager_utils/include/manager_utils/config/DrawMgrConfig.h
  ../manager_utils/include/manager_utils/config/ManagerHandlerConfig.h
@@ -90,14 +90,14 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o
  ../utils/include/utils/drawing/DrawParams.h
  ../utils/include/utils/drawing/Point.h
  ../utils/include/utils/drawing/Rectangle.h
- /home/smeshan/workspace/SFX/manager_utils/src/managers/ManagerHandler.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/managers/ManagerHandler.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o
  ../manager_utils/include/manager_utils/config/MediaMgrConfig.h
  ../manager_utils/include/manager_utils/managers/MediaMgr.h
  ../manager_utils/include/manager_utils/managers/MgrBase.h
  ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
  ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
- /home/smeshan/workspace/SFX/manager_utils/src/managers/MediaMgr.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/managers/MediaMgr.cpp
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o
  ../manager_utils/include/manager_utils/config/RsrcMgrConfig.h
  ../manager_utils/include/manager_utils/managers/MgrBase.h
@@ -108,4 +108,4 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o
  ../sdl_utils/include/sdl_utils/containers/TextContainer.h
  ../utils/include/utils/drawing/Point.h
  ../utils/include/utils/drawing/Rectangle.h
- /home/smeshan/workspace/SFX/manager_utils/src/managers/RsrcMgr.cpp
+ /home/smeshan/workspace/console type/manager_utils/src/managers/RsrcMgr.cpp

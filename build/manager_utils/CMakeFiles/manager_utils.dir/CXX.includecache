@@ -182,83 +182,83 @@ cstdlib
 utils/drawing/Point.h
 ../utils/include/utils/drawing/utils/drawing/Point.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/audio/Audio.cpp
+/home/smeshan/workspace/console type/manager_utils/src/audio/Audio.cpp
 manager_utils/audio/Audio.h
-/home/smeshan/workspace/SFX/manager_utils/src/audio/manager_utils/audio/Audio.h
+/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/audio/Audio.h
 iostream
 -
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/audio/Sound.cpp
+/home/smeshan/workspace/console type/manager_utils/src/audio/Sound.cpp
 manager_utils/audio/Sound.h
-/home/smeshan/workspace/SFX/manager_utils/src/audio/manager_utils/audio/Sound.h
+/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/audio/Sound.h
 iostream
 -
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/Image.cpp
+/home/smeshan/workspace/console type/manager_utils/src/drawing/Image.cpp
 manager_utils/drawing/Image.h
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/manager_utils/drawing/Image.h
+/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/drawing/Image.h
 iostream
 -
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/Text.cpp
+/home/smeshan/workspace/console type/manager_utils/src/drawing/Text.cpp
 manager_utils/drawing/Text.h
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/manager_utils/drawing/Text.h
+/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/drawing/Text.h
 iostream
 -
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/Widget.cpp
+/home/smeshan/workspace/console type/manager_utils/src/drawing/Widget.cpp
 manager_utils/drawing/Widget.h
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/manager_utils/drawing/Widget.h
+/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/drawing/Widget.h
 iostream
 -
 manager_utils/managers/DrawMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/drawing/manager_utils/managers/DrawMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/managers/DrawMgr.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/managers/DrawMgr.cpp
+/home/smeshan/workspace/console type/manager_utils/src/managers/DrawMgr.cpp
 manager_utils/managers/DrawMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
 iostream
 -
 manager_utils/config/DrawMgrConfig.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/config/DrawMgrConfig.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/DrawMgrConfig.h
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/managers/ManagerHandler.cpp
+/home/smeshan/workspace/console type/manager_utils/src/managers/ManagerHandler.cpp
 manager_utils/managers/ManagerHandler.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/ManagerHandler.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/ManagerHandler.h
 iostream
 -
 manager_utils/config/ManagerHandlerConfig.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/config/ManagerHandlerConfig.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/ManagerHandlerConfig.h
 manager_utils/managers/DrawMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/managers/MediaMgr.cpp
+/home/smeshan/workspace/console type/manager_utils/src/managers/MediaMgr.cpp
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
 iostream
 -
 manager_utils/config/MediaMgrConfig.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/config/MediaMgrConfig.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/MediaMgrConfig.h
 
-/home/smeshan/workspace/SFX/manager_utils/src/managers/RsrcMgr.cpp
+/home/smeshan/workspace/console type/manager_utils/src/managers/RsrcMgr.cpp
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
 iostream
 -
 manager_utils/config/RsrcMgrConfig.h
-/home/smeshan/workspace/SFX/manager_utils/src/managers/manager_utils/config/RsrcMgrConfig.h
+/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/RsrcMgrConfig.h
 

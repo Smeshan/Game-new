@@ -49,12 +49,48 @@ manager_utils/drawing/Text.h
 ../include/game/manager_utils/drawing/Text.h
 manager_utils/audio/Sound.h
 ../include/game/manager_utils/audio/Sound.h
+game/entities/Console.h
+../include/game/game/entities/Console.h
 
 ../include/game/config/GameConfig.h
 cstdint
 -
 unordered_map
 -
+
+../include/game/entities/Console.h
+cstdint
+-
+string
+-
+game/entities/TextField.h
+../include/game/entities/game/entities/TextField.h
+
+../include/game/entities/KeyWords.h
+array
+-
+
+../include/game/entities/TextField.h
+cstdint
+-
+vector
+-
+manager_utils/drawing/Image.h
+../include/game/entities/manager_utils/drawing/Image.h
+manager_utils/audio/Sound.h
+../include/game/entities/manager_utils/audio/Sound.h
+game/entities/TextLine.h
+../include/game/entities/game/entities/TextLine.h
+
+../include/game/entities/TextLine.h
+cstdint
+-
+vector
+-
+manager_utils/drawing/Text.h
+../include/game/entities/manager_utils/drawing/Text.h
+common/CommonDefines.h
+../include/game/entities/common/CommonDefines.h
 
 ../manager_utils/include/manager_utils/audio/Audio.h
 cstdint
@@ -248,47 +284,75 @@ iostream
 string
 -
 
-/home/smeshan/workspace/SFX/src/engine/Engine.cpp
+/home/smeshan/workspace/console type/src/engine/Engine.cpp
 engine/Engine.h
-/home/smeshan/workspace/SFX/src/engine/engine/Engine.h
+/home/smeshan/workspace/console type/src/engine/engine/Engine.h
 iostream
 -
 engine/config/EngineConfig.h
-/home/smeshan/workspace/SFX/src/engine/engine/config/EngineConfig.h
+/home/smeshan/workspace/console type/src/engine/engine/config/EngineConfig.h
 utils/thread/ThreadUtils.h
-/home/smeshan/workspace/SFX/src/engine/utils/thread/ThreadUtils.h
+/home/smeshan/workspace/console type/src/engine/utils/thread/ThreadUtils.h
 utils/time/Time.h
-/home/smeshan/workspace/SFX/src/engine/utils/time/Time.h
+/home/smeshan/workspace/console type/src/engine/utils/time/Time.h
 manager_utils/managers/DrawMgr.h
-/home/smeshan/workspace/SFX/src/engine/manager_utils/managers/DrawMgr.h
+/home/smeshan/workspace/console type/src/engine/manager_utils/managers/DrawMgr.h
 
-/home/smeshan/workspace/SFX/src/engine/EngineConfigLoader.cpp
+/home/smeshan/workspace/console type/src/engine/EngineConfigLoader.cpp
 engine/EngineConfigLoader.h
-/home/smeshan/workspace/SFX/src/engine/engine/EngineConfigLoader.h
+/home/smeshan/workspace/console type/src/engine/engine/EngineConfigLoader.h
 string
 -
 unordered_map
 -
 utils/tools/ConfigApplier.h
-/home/smeshan/workspace/SFX/src/engine/utils/tools/ConfigApplier.h
+/home/smeshan/workspace/console type/src/engine/utils/tools/ConfigApplier.h
 utils/tools/ConfigExtractor.h
-/home/smeshan/workspace/SFX/src/engine/utils/tools/ConfigExtractor.h
+/home/smeshan/workspace/console type/src/engine/utils/tools/ConfigExtractor.h
 sdl_utils/tools/AutoResLoader.h
-/home/smeshan/workspace/SFX/src/engine/sdl_utils/tools/AutoResLoader.h
+/home/smeshan/workspace/console type/src/engine/sdl_utils/tools/AutoResLoader.h
 common/CommonDefines.h
-/home/smeshan/workspace/SFX/src/engine/common/CommonDefines.h
+/home/smeshan/workspace/console type/src/engine/common/CommonDefines.h
 utils/common/CommonPaths.h
-/home/smeshan/workspace/SFX/src/engine/utils/common/CommonPaths.h
+/home/smeshan/workspace/console type/src/engine/utils/common/CommonPaths.h
 
-/home/smeshan/workspace/SFX/src/game/Game.cpp
+/home/smeshan/workspace/console type/src/game/Game.cpp
 game/Game.h
-/home/smeshan/workspace/SFX/src/game/game/Game.h
+/home/smeshan/workspace/console type/src/game/game/Game.h
 iostream
 -
 sdl_utils/InputEvent.h
-/home/smeshan/workspace/SFX/src/game/sdl_utils/InputEvent.h
+/home/smeshan/workspace/console type/src/game/sdl_utils/InputEvent.h
 
-/home/smeshan/workspace/SFX/src/main.cpp
+/home/smeshan/workspace/console type/src/game/entities/Console.cpp
+game/entities/Console.h
+/home/smeshan/workspace/console type/src/game/entities/game/entities/Console.h
+iostream
+-
+sdl_utils/InputEvent.h
+/home/smeshan/workspace/console type/src/game/entities/sdl_utils/InputEvent.h
+game/config/GameConfig.h
+/home/smeshan/workspace/console type/src/game/entities/game/config/GameConfig.h
+
+/home/smeshan/workspace/console type/src/game/entities/KeyWords.cpp
+game/entities/KeyWords.h
+/home/smeshan/workspace/console type/src/game/entities/game/entities/KeyWords.h
+
+/home/smeshan/workspace/console type/src/game/entities/TextField.cpp
+game/entities/TextField.h
+/home/smeshan/workspace/console type/src/game/entities/game/entities/TextField.h
+string
+-
+sdl_utils/InputEvent.h
+/home/smeshan/workspace/console type/src/game/entities/sdl_utils/InputEvent.h
+
+/home/smeshan/workspace/console type/src/game/entities/TextLine.cpp
+game/entities/TextLine.h
+/home/smeshan/workspace/console type/src/game/entities/game/entities/TextLine.h
+game/entities/KeyWords.h
+/home/smeshan/workspace/console type/src/game/entities/game/entities/KeyWords.h
+
+/home/smeshan/workspace/console type/src/main.cpp
 cstdint
 -
 cstdlib
@@ -296,9 +360,9 @@ cstdlib
 iostream
 -
 sdl_utils/SDLLoader.h
-/home/smeshan/workspace/SFX/src/sdl_utils/SDLLoader.h
+/home/smeshan/workspace/console type/src/sdl_utils/SDLLoader.h
 engine/Engine.h
-/home/smeshan/workspace/SFX/src/engine/Engine.h
+/home/smeshan/workspace/console type/src/engine/Engine.h
 engine/EngineConfigLoader.h
-/home/smeshan/workspace/SFX/src/engine/EngineConfigLoader.h
+/home/smeshan/workspace/console type/src/engine/EngineConfigLoader.h
 

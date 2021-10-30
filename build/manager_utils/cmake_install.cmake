@@ -1,4 +1,4 @@
-# Install script for directory: /home/smeshan/workspace/SFX/manager_utils
+# Install script for directory: /home/smeshan/workspace/console type/manager_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

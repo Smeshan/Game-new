@@ -5,7 +5,7 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/cmake_helpers/helpers.cmake)
 set(CMAKE_MODULE_PATH
 	${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake_helpers/find_modules)
 
-project(sfx LANGUAGES CXX)
+project(console_type LANGUAGES CXX)
 
 if(UNIX)
 	set(SDL2_image_name SDL2_image)
@@ -30,12 +30,22 @@ add_executable(${PROJECT_NAME}
 	${_INC_DIR}/common/CommonDefines.h
 	${_INC_DIR}/game/Game.h
 	${_INC_DIR}/game/config/GameConfig.h
+	${_INC_DIR}/game/entities/Console.h
+	${_INC_DIR}/game/entities/KeyWords.h
+	${_INC_DIR}/game/entities/TextField.h
+	${_INC_DIR}/game/entities/TextLine.h
+
 	${_INC_DIR}/engine/EngineConfigLoader.h
 	${_INC_DIR}/engine/Engine.h
 	${_INC_DIR}/engine/config/EngineConfig.h
 	
 	${_SRC_DIR}/main.cpp
 	${_SRC_DIR}/game/Game.cpp
+	${_SRC_DIR}/game/entities/Console.cpp
+	${_SRC_DIR}/game/entities/KeyWords.cpp
+	${_SRC_DIR}/game/entities/TextField.cpp
+	${_SRC_DIR}/game/entities/TextLine.cpp
+
 	${_SRC_DIR}/engine/Engine.cpp
 	${_SRC_DIR}/engine/EngineConfigLoader.cpp
 )

@@ -107,9 +107,9 @@ void Widget::moveLeft(int32_t delta) {
 }
 
 void Widget::moveUp(int32_t delta) {
-    _drawParams.pos.y += delta;
+    _drawParams.pos.y -= delta;
 }
 
 void Widget::moveDown(int32_t delta) {
-    _drawParams.pos.y -= delta;
+    _drawParams.pos.y += delta;
 }

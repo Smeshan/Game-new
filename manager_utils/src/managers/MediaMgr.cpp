@@ -30,7 +30,7 @@ int32_t MediaMgr::init(const MediaMgrConfig& config) {
 
 void MediaMgr::addPlaySoundCmd(const int32_t sndId) {
     SoundContainer::playSoundCmd(sndId);   
-    //QUESTION
+    //TODO remove one of the containers
     // why is not working with _soundContainer.playSoundCmd(sndId):
 }
 

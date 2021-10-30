@@ -30,6 +30,7 @@ public:
 	int32_t key = Keyboard::KEY_UNKNOWN;
 	uint8_t mouseButton = Mouse::UNKNOWN;
 	TouchEvent type = TouchEvent::UNKNOWN;
+	char* text;
 
 private:
 	void setEventTypeInternal();

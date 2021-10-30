@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smeshan/workspace/SFX
+CMAKE_SOURCE_DIR = "/home/smeshan/workspace/console type"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smeshan/workspace/SFX/build
+CMAKE_BINARY_DIR = "/home/smeshan/workspace/console type/build"
 
 # Include any dependencies generated for this target.
 include utils/CMakeFiles/utils.dir/depend.make
@@ -59,16 +59,16 @@ include utils/CMakeFiles/utils.dir/flags.make
 
 utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o: utils/CMakeFiles/utils.dir/flags.make
 utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o: ../utils/src/drawing/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/Point.cpp.o -c /home/smeshan/workspace/SFX/utils/src/drawing/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/Point.cpp.o -c "/home/smeshan/workspace/console type/utils/src/drawing/Point.cpp"
 
 utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/src/drawing/Point.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/utils/src/drawing/Point.cpp > CMakeFiles/utils.dir/src/drawing/Point.cpp.i
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/utils/src/drawing/Point.cpp" > CMakeFiles/utils.dir/src/drawing/Point.cpp.i
 
 utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/src/drawing/Point.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/utils/src/drawing/Point.cpp -o CMakeFiles/utils.dir/src/drawing/Point.cpp.s
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/utils/src/drawing/Point.cpp" -o CMakeFiles/utils.dir/src/drawing/Point.cpp.s
 
 utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o.requires:
 
@@ -83,16 +83,16 @@ utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o.provides.build: utils/CMakeFi
 
 utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o: utils/CMakeFiles/utils.dir/flags.make
 utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o: ../utils/src/drawing/Rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o -c /home/smeshan/workspace/SFX/utils/src/drawing/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o -c "/home/smeshan/workspace/console type/utils/src/drawing/Rectangle.cpp"
 
 utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/utils/src/drawing/Rectangle.cpp > CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.i
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/utils/src/drawing/Rectangle.cpp" > CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.i
 
 utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/utils/src/drawing/Rectangle.cpp -o CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.s
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/utils/src/drawing/Rectangle.cpp" -o CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.s
 
 utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o.requires:
 
@@ -107,16 +107,16 @@ utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o.provides.build: utils/CMa
 
 utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o: utils/CMakeFiles/utils.dir/flags.make
 utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o: ../utils/src/drawing/Color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/Color.cpp.o -c /home/smeshan/workspace/SFX/utils/src/drawing/Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/Color.cpp.o -c "/home/smeshan/workspace/console type/utils/src/drawing/Color.cpp"
 
 utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/src/drawing/Color.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/utils/src/drawing/Color.cpp > CMakeFiles/utils.dir/src/drawing/Color.cpp.i
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/utils/src/drawing/Color.cpp" > CMakeFiles/utils.dir/src/drawing/Color.cpp.i
 
 utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/src/drawing/Color.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/utils/src/drawing/Color.cpp -o CMakeFiles/utils.dir/src/drawing/Color.cpp.s
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/utils/src/drawing/Color.cpp" -o CMakeFiles/utils.dir/src/drawing/Color.cpp.s
 
 utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o.requires:
 
@@ -131,16 +131,16 @@ utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o.provides.build: utils/CMakeFi
 
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o: utils/CMakeFiles/utils.dir/flags.make
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o: ../utils/src/drawing/DrawParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o -c /home/smeshan/workspace/SFX/utils/src/drawing/DrawParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o -c "/home/smeshan/workspace/console type/utils/src/drawing/DrawParams.cpp"
 
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/utils/src/drawing/DrawParams.cpp > CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.i
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/utils/src/drawing/DrawParams.cpp" > CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.i
 
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/utils/src/drawing/DrawParams.cpp -o CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.s
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/utils/src/drawing/DrawParams.cpp" -o CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.s
 
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o.requires:
 
@@ -155,16 +155,16 @@ utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o.provides.build: utils/CM
 
 utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o: utils/CMakeFiles/utils.dir/flags.make
 utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o: ../utils/src/thread/ThreadUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o -c /home/smeshan/workspace/SFX/utils/src/thread/ThreadUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o -c "/home/smeshan/workspace/console type/utils/src/thread/ThreadUtils.cpp"
 
 utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/utils/src/thread/ThreadUtils.cpp > CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.i
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/utils/src/thread/ThreadUtils.cpp" > CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.i
 
 utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/utils/src/thread/ThreadUtils.cpp -o CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.s
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/utils/src/thread/ThreadUtils.cpp" -o CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.s
 
 utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o.requires:
 
@@ -179,16 +179,16 @@ utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o.provides.build: utils/CM
 
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.o: utils/CMakeFiles/utils.dir/flags.make
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.o: ../utils/src/time/Time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object utils/CMakeFiles/utils.dir/src/time/Time.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/time/Time.cpp.o -c /home/smeshan/workspace/SFX/utils/src/time/Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object utils/CMakeFiles/utils.dir/src/time/Time.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/utils.dir/src/time/Time.cpp.o -c "/home/smeshan/workspace/console type/utils/src/time/Time.cpp"
 
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/src/time/Time.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/utils/src/time/Time.cpp > CMakeFiles/utils.dir/src/time/Time.cpp.i
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/utils/src/time/Time.cpp" > CMakeFiles/utils.dir/src/time/Time.cpp.i
 
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/src/time/Time.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/utils/src/time/Time.cpp -o CMakeFiles/utils.dir/src/time/Time.cpp.s
+	cd "/home/smeshan/workspace/console type/build/utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/utils/src/time/Time.cpp" -o CMakeFiles/utils.dir/src/time/Time.cpp.s
 
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.o.requires:
 
@@ -221,9 +221,9 @@ utils/libutils.a: utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o
 utils/libutils.a: utils/CMakeFiles/utils.dir/src/time/Time.cpp.o
 utils/libutils.a: utils/CMakeFiles/utils.dir/build.make
 utils/libutils.a: utils/CMakeFiles/utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libutils.a"
-	cd /home/smeshan/workspace/SFX/build/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean_target.cmake
-	cd /home/smeshan/workspace/SFX/build/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libutils.a"
+	cd "/home/smeshan/workspace/console type/build/utils" && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean_target.cmake
+	cd "/home/smeshan/workspace/console type/build/utils" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/CMakeFiles/utils.dir/build: utils/libutils.a
@@ -240,10 +240,10 @@ utils/CMakeFiles/utils.dir/requires: utils/CMakeFiles/utils.dir/src/time/Time.cp
 .PHONY : utils/CMakeFiles/utils.dir/requires
 
 utils/CMakeFiles/utils.dir/clean:
-	cd /home/smeshan/workspace/SFX/build/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
+	cd "/home/smeshan/workspace/console type/build/utils" && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
 .PHONY : utils/CMakeFiles/utils.dir/clean
 
 utils/CMakeFiles/utils.dir/depend:
-	cd /home/smeshan/workspace/SFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smeshan/workspace/SFX /home/smeshan/workspace/SFX/utils /home/smeshan/workspace/SFX/build /home/smeshan/workspace/SFX/build/utils /home/smeshan/workspace/SFX/build/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/smeshan/workspace/console type" "/home/smeshan/workspace/console type/utils" "/home/smeshan/workspace/console type/build" "/home/smeshan/workspace/console type/build/utils" "/home/smeshan/workspace/console type/build/utils/CMakeFiles/utils.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : utils/CMakeFiles/utils.dir/depend
 

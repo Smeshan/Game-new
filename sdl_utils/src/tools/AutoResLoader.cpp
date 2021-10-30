@@ -48,7 +48,7 @@ std::vector<ImageConfig> AutoResLoader::getFileConfigFromFolder() {
     }
 
     //TODO fix RESOURCES COUNT
-    std::vector<ImageConfig> imageData(4);
+    std::vector<ImageConfig> imageData(5);
     while ((file = readdir(dir)) != nullptr) {
         const std::string currFile = file->d_name;
         if (currFile == "." || currFile == "..") {

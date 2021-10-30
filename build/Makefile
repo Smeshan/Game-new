@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smeshan/workspace/SFX
+CMAKE_SOURCE_DIR = "/home/smeshan/workspace/console type"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smeshan/workspace/SFX/build
+CMAKE_BINARY_DIR = "/home/smeshan/workspace/console type/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/SFX/build/CMakeFiles /home/smeshan/workspace/SFX/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" "/home/smeshan/workspace/console type/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/SFX/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sfx
+# Target rules for targets named console_type
 
 # Build rule for target.
-sfx: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sfx
-.PHONY : sfx
+console_type: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 console_type
+.PHONY : console_type
 
 # fast build rule for target.
-sfx/fast:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/build
-.PHONY : sfx/fast
+console_type/fast:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/build
+.PHONY : console_type/fast
 
 #=============================================================================
 # Target rules for targets named utils
@@ -168,7 +168,7 @@ src/engine/Engine.o: src/engine/Engine.cpp.o
 
 # target to build an object file
 src/engine/Engine.cpp.o:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/engine/Engine.cpp.o
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/Engine.cpp.o
 .PHONY : src/engine/Engine.cpp.o
 
 src/engine/Engine.i: src/engine/Engine.cpp.i
@@ -177,7 +177,7 @@ src/engine/Engine.i: src/engine/Engine.cpp.i
 
 # target to preprocess a source file
 src/engine/Engine.cpp.i:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/engine/Engine.cpp.i
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/Engine.cpp.i
 .PHONY : src/engine/Engine.cpp.i
 
 src/engine/Engine.s: src/engine/Engine.cpp.s
@@ -186,7 +186,7 @@ src/engine/Engine.s: src/engine/Engine.cpp.s
 
 # target to generate assembly for a file
 src/engine/Engine.cpp.s:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/engine/Engine.cpp.s
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/Engine.cpp.s
 .PHONY : src/engine/Engine.cpp.s
 
 src/engine/EngineConfigLoader.o: src/engine/EngineConfigLoader.cpp.o
@@ -195,7 +195,7 @@ src/engine/EngineConfigLoader.o: src/engine/EngineConfigLoader.cpp.o
 
 # target to build an object file
 src/engine/EngineConfigLoader.cpp.o:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/engine/EngineConfigLoader.cpp.o
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/EngineConfigLoader.cpp.o
 .PHONY : src/engine/EngineConfigLoader.cpp.o
 
 src/engine/EngineConfigLoader.i: src/engine/EngineConfigLoader.cpp.i
@@ -204,7 +204,7 @@ src/engine/EngineConfigLoader.i: src/engine/EngineConfigLoader.cpp.i
 
 # target to preprocess a source file
 src/engine/EngineConfigLoader.cpp.i:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/engine/EngineConfigLoader.cpp.i
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/EngineConfigLoader.cpp.i
 .PHONY : src/engine/EngineConfigLoader.cpp.i
 
 src/engine/EngineConfigLoader.s: src/engine/EngineConfigLoader.cpp.s
@@ -213,7 +213,7 @@ src/engine/EngineConfigLoader.s: src/engine/EngineConfigLoader.cpp.s
 
 # target to generate assembly for a file
 src/engine/EngineConfigLoader.cpp.s:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/engine/EngineConfigLoader.cpp.s
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/EngineConfigLoader.cpp.s
 .PHONY : src/engine/EngineConfigLoader.cpp.s
 
 src/game/Game.o: src/game/Game.cpp.o
@@ -222,7 +222,7 @@ src/game/Game.o: src/game/Game.cpp.o
 
 # target to build an object file
 src/game/Game.cpp.o:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/game/Game.cpp.o
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/Game.cpp.o
 .PHONY : src/game/Game.cpp.o
 
 src/game/Game.i: src/game/Game.cpp.i
@@ -231,7 +231,7 @@ src/game/Game.i: src/game/Game.cpp.i
 
 # target to preprocess a source file
 src/game/Game.cpp.i:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/game/Game.cpp.i
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/Game.cpp.i
 .PHONY : src/game/Game.cpp.i
 
 src/game/Game.s: src/game/Game.cpp.s
@@ -240,8 +240,116 @@ src/game/Game.s: src/game/Game.cpp.s
 
 # target to generate assembly for a file
 src/game/Game.cpp.s:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/game/Game.cpp.s
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/Game.cpp.s
 .PHONY : src/game/Game.cpp.s
+
+src/game/entities/Console.o: src/game/entities/Console.cpp.o
+
+.PHONY : src/game/entities/Console.o
+
+# target to build an object file
+src/game/entities/Console.cpp.o:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/Console.cpp.o
+.PHONY : src/game/entities/Console.cpp.o
+
+src/game/entities/Console.i: src/game/entities/Console.cpp.i
+
+.PHONY : src/game/entities/Console.i
+
+# target to preprocess a source file
+src/game/entities/Console.cpp.i:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/Console.cpp.i
+.PHONY : src/game/entities/Console.cpp.i
+
+src/game/entities/Console.s: src/game/entities/Console.cpp.s
+
+.PHONY : src/game/entities/Console.s
+
+# target to generate assembly for a file
+src/game/entities/Console.cpp.s:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/Console.cpp.s
+.PHONY : src/game/entities/Console.cpp.s
+
+src/game/entities/KeyWords.o: src/game/entities/KeyWords.cpp.o
+
+.PHONY : src/game/entities/KeyWords.o
+
+# target to build an object file
+src/game/entities/KeyWords.cpp.o:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/KeyWords.cpp.o
+.PHONY : src/game/entities/KeyWords.cpp.o
+
+src/game/entities/KeyWords.i: src/game/entities/KeyWords.cpp.i
+
+.PHONY : src/game/entities/KeyWords.i
+
+# target to preprocess a source file
+src/game/entities/KeyWords.cpp.i:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/KeyWords.cpp.i
+.PHONY : src/game/entities/KeyWords.cpp.i
+
+src/game/entities/KeyWords.s: src/game/entities/KeyWords.cpp.s
+
+.PHONY : src/game/entities/KeyWords.s
+
+# target to generate assembly for a file
+src/game/entities/KeyWords.cpp.s:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/KeyWords.cpp.s
+.PHONY : src/game/entities/KeyWords.cpp.s
+
+src/game/entities/TextField.o: src/game/entities/TextField.cpp.o
+
+.PHONY : src/game/entities/TextField.o
+
+# target to build an object file
+src/game/entities/TextField.cpp.o:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextField.cpp.o
+.PHONY : src/game/entities/TextField.cpp.o
+
+src/game/entities/TextField.i: src/game/entities/TextField.cpp.i
+
+.PHONY : src/game/entities/TextField.i
+
+# target to preprocess a source file
+src/game/entities/TextField.cpp.i:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextField.cpp.i
+.PHONY : src/game/entities/TextField.cpp.i
+
+src/game/entities/TextField.s: src/game/entities/TextField.cpp.s
+
+.PHONY : src/game/entities/TextField.s
+
+# target to generate assembly for a file
+src/game/entities/TextField.cpp.s:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextField.cpp.s
+.PHONY : src/game/entities/TextField.cpp.s
+
+src/game/entities/TextLine.o: src/game/entities/TextLine.cpp.o
+
+.PHONY : src/game/entities/TextLine.o
+
+# target to build an object file
+src/game/entities/TextLine.cpp.o:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextLine.cpp.o
+.PHONY : src/game/entities/TextLine.cpp.o
+
+src/game/entities/TextLine.i: src/game/entities/TextLine.cpp.i
+
+.PHONY : src/game/entities/TextLine.i
+
+# target to preprocess a source file
+src/game/entities/TextLine.cpp.i:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextLine.cpp.i
+.PHONY : src/game/entities/TextLine.cpp.i
+
+src/game/entities/TextLine.s: src/game/entities/TextLine.cpp.s
+
+.PHONY : src/game/entities/TextLine.s
+
+# target to generate assembly for a file
+src/game/entities/TextLine.cpp.s:
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextLine.cpp.s
+.PHONY : src/game/entities/TextLine.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -249,7 +357,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -258,7 +366,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -267,7 +375,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/sfx.dir/build.make CMakeFiles/sfx.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -277,7 +385,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... sfx"
+	@echo "... console_type"
 	@echo "... edit_cache"
 	@echo "... utils"
 	@echo "... sdl_utils"
@@ -291,6 +399,18 @@ help:
 	@echo "... src/game/Game.o"
 	@echo "... src/game/Game.i"
 	@echo "... src/game/Game.s"
+	@echo "... src/game/entities/Console.o"
+	@echo "... src/game/entities/Console.i"
+	@echo "... src/game/entities/Console.s"
+	@echo "... src/game/entities/KeyWords.o"
+	@echo "... src/game/entities/KeyWords.i"
+	@echo "... src/game/entities/KeyWords.s"
+	@echo "... src/game/entities/TextField.o"
+	@echo "... src/game/entities/TextField.i"
+	@echo "... src/game/entities/TextField.s"
+	@echo "... src/game/entities/TextLine.o"
+	@echo "... src/game/entities/TextLine.i"
+	@echo "... src/game/entities/TextLine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

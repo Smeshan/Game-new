@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smeshan/workspace/SFX
+CMAKE_SOURCE_DIR = "/home/smeshan/workspace/console type"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smeshan/workspace/SFX/build
+CMAKE_BINARY_DIR = "/home/smeshan/workspace/console type/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/smeshan/workspace/SFX/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/SFX/build/CMakeFiles /home/smeshan/workspace/SFX/build/manager_utils/CMakeFiles/progress.marks
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/SFX/build/CMakeFiles 0
+	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" "/home/smeshan/workspace/console type/build/manager_utils/CMakeFiles/progress.marks"
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/clean
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/preinstall
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/preinstall
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/smeshan/workspace/SFX/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 manager_utils/CMakeFiles/manager_utils.dir/rule:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/CMakeFiles/manager_utils.dir/rule
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 manager_utils/CMakeFiles/manager_utils.dir/rule
 .PHONY : manager_utils/CMakeFiles/manager_utils.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ manager_utils: manager_utils/CMakeFiles/manager_utils.dir/rule
 
 # fast build rule for target.
 manager_utils/fast:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/build
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/build
 .PHONY : manager_utils/fast
 
 src/audio/Audio.o: src/audio/Audio.cpp.o
@@ -131,7 +131,7 @@ src/audio/Audio.o: src/audio/Audio.cpp.o
 
 # target to build an object file
 src/audio/Audio.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o
 .PHONY : src/audio/Audio.cpp.o
 
 src/audio/Audio.i: src/audio/Audio.cpp.i
@@ -140,7 +140,7 @@ src/audio/Audio.i: src/audio/Audio.cpp.i
 
 # target to preprocess a source file
 src/audio/Audio.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.i
 .PHONY : src/audio/Audio.cpp.i
 
 src/audio/Audio.s: src/audio/Audio.cpp.s
@@ -149,7 +149,7 @@ src/audio/Audio.s: src/audio/Audio.cpp.s
 
 # target to generate assembly for a file
 src/audio/Audio.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.s
 .PHONY : src/audio/Audio.cpp.s
 
 src/audio/Sound.o: src/audio/Sound.cpp.o
@@ -158,7 +158,7 @@ src/audio/Sound.o: src/audio/Sound.cpp.o
 
 # target to build an object file
 src/audio/Sound.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o
 .PHONY : src/audio/Sound.cpp.o
 
 src/audio/Sound.i: src/audio/Sound.cpp.i
@@ -167,7 +167,7 @@ src/audio/Sound.i: src/audio/Sound.cpp.i
 
 # target to preprocess a source file
 src/audio/Sound.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.i
 .PHONY : src/audio/Sound.cpp.i
 
 src/audio/Sound.s: src/audio/Sound.cpp.s
@@ -176,7 +176,7 @@ src/audio/Sound.s: src/audio/Sound.cpp.s
 
 # target to generate assembly for a file
 src/audio/Sound.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.s
 .PHONY : src/audio/Sound.cpp.s
 
 src/drawing/Image.o: src/drawing/Image.cpp.o
@@ -185,7 +185,7 @@ src/drawing/Image.o: src/drawing/Image.cpp.o
 
 # target to build an object file
 src/drawing/Image.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o
 .PHONY : src/drawing/Image.cpp.o
 
 src/drawing/Image.i: src/drawing/Image.cpp.i
@@ -194,7 +194,7 @@ src/drawing/Image.i: src/drawing/Image.cpp.i
 
 # target to preprocess a source file
 src/drawing/Image.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.i
 .PHONY : src/drawing/Image.cpp.i
 
 src/drawing/Image.s: src/drawing/Image.cpp.s
@@ -203,7 +203,7 @@ src/drawing/Image.s: src/drawing/Image.cpp.s
 
 # target to generate assembly for a file
 src/drawing/Image.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.s
 .PHONY : src/drawing/Image.cpp.s
 
 src/drawing/Text.o: src/drawing/Text.cpp.o
@@ -212,7 +212,7 @@ src/drawing/Text.o: src/drawing/Text.cpp.o
 
 # target to build an object file
 src/drawing/Text.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o
 .PHONY : src/drawing/Text.cpp.o
 
 src/drawing/Text.i: src/drawing/Text.cpp.i
@@ -221,7 +221,7 @@ src/drawing/Text.i: src/drawing/Text.cpp.i
 
 # target to preprocess a source file
 src/drawing/Text.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.i
 .PHONY : src/drawing/Text.cpp.i
 
 src/drawing/Text.s: src/drawing/Text.cpp.s
@@ -230,7 +230,7 @@ src/drawing/Text.s: src/drawing/Text.cpp.s
 
 # target to generate assembly for a file
 src/drawing/Text.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.s
 .PHONY : src/drawing/Text.cpp.s
 
 src/drawing/Widget.o: src/drawing/Widget.cpp.o
@@ -239,7 +239,7 @@ src/drawing/Widget.o: src/drawing/Widget.cpp.o
 
 # target to build an object file
 src/drawing/Widget.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o
 .PHONY : src/drawing/Widget.cpp.o
 
 src/drawing/Widget.i: src/drawing/Widget.cpp.i
@@ -248,7 +248,7 @@ src/drawing/Widget.i: src/drawing/Widget.cpp.i
 
 # target to preprocess a source file
 src/drawing/Widget.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.i
 .PHONY : src/drawing/Widget.cpp.i
 
 src/drawing/Widget.s: src/drawing/Widget.cpp.s
@@ -257,7 +257,7 @@ src/drawing/Widget.s: src/drawing/Widget.cpp.s
 
 # target to generate assembly for a file
 src/drawing/Widget.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.s
 .PHONY : src/drawing/Widget.cpp.s
 
 src/managers/DrawMgr.o: src/managers/DrawMgr.cpp.o
@@ -266,7 +266,7 @@ src/managers/DrawMgr.o: src/managers/DrawMgr.cpp.o
 
 # target to build an object file
 src/managers/DrawMgr.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o
 .PHONY : src/managers/DrawMgr.cpp.o
 
 src/managers/DrawMgr.i: src/managers/DrawMgr.cpp.i
@@ -275,7 +275,7 @@ src/managers/DrawMgr.i: src/managers/DrawMgr.cpp.i
 
 # target to preprocess a source file
 src/managers/DrawMgr.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.i
 .PHONY : src/managers/DrawMgr.cpp.i
 
 src/managers/DrawMgr.s: src/managers/DrawMgr.cpp.s
@@ -284,7 +284,7 @@ src/managers/DrawMgr.s: src/managers/DrawMgr.cpp.s
 
 # target to generate assembly for a file
 src/managers/DrawMgr.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.s
 .PHONY : src/managers/DrawMgr.cpp.s
 
 src/managers/ManagerHandler.o: src/managers/ManagerHandler.cpp.o
@@ -293,7 +293,7 @@ src/managers/ManagerHandler.o: src/managers/ManagerHandler.cpp.o
 
 # target to build an object file
 src/managers/ManagerHandler.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o
 .PHONY : src/managers/ManagerHandler.cpp.o
 
 src/managers/ManagerHandler.i: src/managers/ManagerHandler.cpp.i
@@ -302,7 +302,7 @@ src/managers/ManagerHandler.i: src/managers/ManagerHandler.cpp.i
 
 # target to preprocess a source file
 src/managers/ManagerHandler.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.i
 .PHONY : src/managers/ManagerHandler.cpp.i
 
 src/managers/ManagerHandler.s: src/managers/ManagerHandler.cpp.s
@@ -311,7 +311,7 @@ src/managers/ManagerHandler.s: src/managers/ManagerHandler.cpp.s
 
 # target to generate assembly for a file
 src/managers/ManagerHandler.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.s
 .PHONY : src/managers/ManagerHandler.cpp.s
 
 src/managers/MediaMgr.o: src/managers/MediaMgr.cpp.o
@@ -320,7 +320,7 @@ src/managers/MediaMgr.o: src/managers/MediaMgr.cpp.o
 
 # target to build an object file
 src/managers/MediaMgr.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o
 .PHONY : src/managers/MediaMgr.cpp.o
 
 src/managers/MediaMgr.i: src/managers/MediaMgr.cpp.i
@@ -329,7 +329,7 @@ src/managers/MediaMgr.i: src/managers/MediaMgr.cpp.i
 
 # target to preprocess a source file
 src/managers/MediaMgr.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.i
 .PHONY : src/managers/MediaMgr.cpp.i
 
 src/managers/MediaMgr.s: src/managers/MediaMgr.cpp.s
@@ -338,7 +338,7 @@ src/managers/MediaMgr.s: src/managers/MediaMgr.cpp.s
 
 # target to generate assembly for a file
 src/managers/MediaMgr.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.s
 .PHONY : src/managers/MediaMgr.cpp.s
 
 src/managers/RsrcMgr.o: src/managers/RsrcMgr.cpp.o
@@ -347,7 +347,7 @@ src/managers/RsrcMgr.o: src/managers/RsrcMgr.cpp.o
 
 # target to build an object file
 src/managers/RsrcMgr.cpp.o:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o
 .PHONY : src/managers/RsrcMgr.cpp.o
 
 src/managers/RsrcMgr.i: src/managers/RsrcMgr.cpp.i
@@ -356,7 +356,7 @@ src/managers/RsrcMgr.i: src/managers/RsrcMgr.cpp.i
 
 # target to preprocess a source file
 src/managers/RsrcMgr.cpp.i:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.i
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.i
 .PHONY : src/managers/RsrcMgr.cpp.i
 
 src/managers/RsrcMgr.s: src/managers/RsrcMgr.cpp.s
@@ -365,7 +365,7 @@ src/managers/RsrcMgr.s: src/managers/RsrcMgr.cpp.s
 
 # target to generate assembly for a file
 src/managers/RsrcMgr.cpp.s:
-	cd /home/smeshan/workspace/SFX/build && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.s
+	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f manager_utils/CMakeFiles/manager_utils.dir/build.make manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.s
 .PHONY : src/managers/RsrcMgr.cpp.s
 
 # Help Target
@@ -415,6 +415,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/smeshan/workspace/SFX/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

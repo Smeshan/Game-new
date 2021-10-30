@@ -117,7 +117,7 @@ void Renderer::drawText(const DrawParams& drawParams, SDL_Texture* texture) {
     int32_t err = SDL_RenderCopy(_sdlRenderer, texture, nullptr, &destRect);
 
     if (EXIT_SUCCESS != err) {
-        std::cerr << "SDL_RenderCopy() failed for resID: " << drawParams.resId
+        std::cerr << "SDL_RenderCopy() failed to draw text for resID: " << drawParams.resId
             << ". Reason: " << SDL_GetError() << std::endl;
     }
 

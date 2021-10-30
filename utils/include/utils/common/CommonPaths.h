@@ -21,13 +21,14 @@ static std::string getFilePath(const std::string& path) {
 }
 
 const std::string RES_FOLDER_PATH = getFilePath("resources/images/");
-const std::string FONT_FILE = getFilePath("resources/fonts/AngelineVintage.ttf");
+const std::string FONT_FILE = getFilePath("resources/fonts/terminal.ttf");
 
 const std::string MONITOR_CFG_FILE = "../sdl_utils/include/sdl_utils/config/MonitorConfig.txt";
 
 const std::string SOUND_FILE_PATH = "../resources/sounds/sound.wav";
+const std::string SINGLE_KEY_TYPE_PATH = "../resources/sounds/single_key_type.wav";
 
-const std::string MUSIC_FILE_PATH = "resources/msuic/music.mp3";
+const std::string MUSIC_FILE_PATH = "resources/music/music.mp3";
 
 
 #endif // COMMONPATHS_H

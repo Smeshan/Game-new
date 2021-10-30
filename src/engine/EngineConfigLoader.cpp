@@ -45,8 +45,8 @@ static void populateImageContainerConfig(ImageContainerConfig& cfg) {
 static void populateTextContainerConfig(TextContainerConfig& cfg) {
     FontConfig fontConfig;
     fontConfig.location = FONT_FILE;
-    fontConfig.fontSize = 40;
-    cfg.fontConfigs.insert(std::make_pair(FontId::ANGELINE_VINTAGE, fontConfig));
+    fontConfig.fontSize = 20;
+    cfg.fontConfigs.insert(std::make_pair(FontId::TERMINAL, fontConfig));
 }
 
 static void populateSoundContainerConfig(SoundContainerConfig& cfg) {
@@ -54,6 +54,10 @@ static void populateSoundContainerConfig(SoundContainerConfig& cfg) {
     soundConfig.location = SOUND_FILE_PATH;
     soundConfig.length = 10;
     cfg.soundConfigs.insert(std::make_pair(MediaId::RING_SFX, soundConfig));
+
+    soundConfig.location = SINGLE_KEY_TYPE_PATH;
+    soundConfig.length = 10;
+    cfg.soundConfigs.insert(std::make_pair(MediaId::SINGLE_KEY_TYPE, soundConfig));
 }
 
 // MANAGERS
@@ -79,14 +83,15 @@ static void populateManagerHandlerConfig(ManagerHandlerConfig& outConfig) {
 
 // GAME
 static void populateGameConfig(GameConfig& outConfig) {
-    outConfig.layer2ResId = TextureId::LAYER_2;
-    outConfig.pressKeysResId = TextureId::ALL_KEYS;
     outConfig.gameMapId = TextureId::GAMEMAP;
 
-    outConfig.textFondId = FontId::ANGELINE_VINTAGE;
+    outConfig.textFondId = FontId::TERMINAL;
 
     outConfig.ringSFXId = MediaId::RING_SFX;
 
+    outConfig.consoleId = TextureId::CONSOLE;
+
+    outConfig.singleKeyTypeSndId = MediaId::SINGLE_KEY_TYPE;
 }
 
 

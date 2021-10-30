@@ -1,4 +1,4 @@
-# Install script for directory: /home/smeshan/workspace/SFX/sdl_utils
+# Install script for directory: /home/smeshan/workspace/console type/sdl_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

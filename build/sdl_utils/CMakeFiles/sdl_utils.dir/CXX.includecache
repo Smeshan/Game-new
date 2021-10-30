@@ -142,25 +142,25 @@ iostream
 string
 -
 
-/home/smeshan/workspace/SFX/sdl_utils/src/InputEvent.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/InputEvent.cpp
 sdl_utils/InputEvent.h
-/home/smeshan/workspace/SFX/sdl_utils/src/sdl_utils/InputEvent.h
+/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/InputEvent.h
 iostream
 -
 SDL_events.h
 -
 
-/home/smeshan/workspace/SFX/sdl_utils/src/Media.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/Media.cpp
 sdl_utils/Media.h
-/home/smeshan/workspace/SFX/sdl_utils/src/sdl_utils/Media.h
+/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Media.h
 iostream
 -
 cstdint
 -
 
-/home/smeshan/workspace/SFX/sdl_utils/src/Monitor.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/Monitor.cpp
 sdl_utils/Monitor.h
-/home/smeshan/workspace/SFX/sdl_utils/src/sdl_utils/Monitor.h
+/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Monitor.h
 iostream
 -
 SDL.h
@@ -170,9 +170,9 @@ SDL_video.h
 sdl_utils/config/MonitorConfig.h
 -
 
-/home/smeshan/workspace/SFX/sdl_utils/src/Renderer.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/Renderer.cpp
 sdl_utils/Renderer.h
-/home/smeshan/workspace/SFX/sdl_utils/src/sdl_utils/Renderer.h
+/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Renderer.h
 iostream
 -
 SDL_hints.h
@@ -180,11 +180,11 @@ SDL_hints.h
 SDL_render.h
 -
 sdl_utils/Texture.h
-/home/smeshan/workspace/SFX/sdl_utils/src/sdl_utils/Texture.h
+/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Texture.h
 
-/home/smeshan/workspace/SFX/sdl_utils/src/SDLLoader.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/SDLLoader.cpp
 sdl_utils/SDLLoader.h
-/home/smeshan/workspace/SFX/sdl_utils/src/sdl_utils/SDLLoader.h
+/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/SDLLoader.h
 cstdlib
 -
 iostream
@@ -198,9 +198,9 @@ SDL_image.h
 SDL_mixer.h
 -
 
-/home/smeshan/workspace/SFX/sdl_utils/src/Texture.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/Texture.cpp
 sdl_utils/Texture.h
-/home/smeshan/workspace/SFX/sdl_utils/src/sdl_utils/Texture.h
+/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Texture.h
 iostream
 -
 SDL_surface.h
@@ -212,39 +212,39 @@ SDL_render.h
 SDL_ttf.h
 -
 utils/drawing/Color.h
-/home/smeshan/workspace/SFX/sdl_utils/src/utils/drawing/Color.h
+/home/smeshan/workspace/console type/sdl_utils/src/utils/drawing/Color.h
 
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/ImageContainer.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/containers/ImageContainer.cpp
 sdl_utils/containers/ImageContainer.h
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/sdl_utils/containers/ImageContainer.h
+/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/containers/ImageContainer.h
 iostream
 -
 sdl_utils/Texture.h
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/sdl_utils/Texture.h
+/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/Texture.h
 
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/SoundContainer.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/containers/SoundContainer.cpp
 sdl_utils/containers/SoundContainer.h
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/sdl_utils/containers/SoundContainer.h
+/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/containers/SoundContainer.h
 iostream
 -
 sdl_utils/Media.h
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/sdl_utils/Media.h
+/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/Media.h
 
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/TextContainer.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/containers/TextContainer.cpp
 sdl_utils/containers/TextContainer.h
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/sdl_utils/containers/TextContainer.h
+/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/containers/TextContainer.h
 iostream
 -
 SDL_ttf.h
 -
 utils/drawing/Color.h
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/utils/drawing/Color.h
+/home/smeshan/workspace/console type/sdl_utils/src/containers/utils/drawing/Color.h
 sdl_utils/Texture.h
-/home/smeshan/workspace/SFX/sdl_utils/src/containers/sdl_utils/Texture.h
+/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/Texture.h
 
-/home/smeshan/workspace/SFX/sdl_utils/src/tools/AutoResLoader.cpp
+/home/smeshan/workspace/console type/sdl_utils/src/tools/AutoResLoader.cpp
 sdl_utils/tools/AutoResLoader.h
-/home/smeshan/workspace/SFX/sdl_utils/src/tools/sdl_utils/tools/AutoResLoader.h
+/home/smeshan/workspace/console type/sdl_utils/src/tools/sdl_utils/tools/AutoResLoader.h
 sstream
 -
 iostream
@@ -252,9 +252,9 @@ iostream
 cstdint
 -
 sdl_utils/config/ImageContainerConfig.h
-/home/smeshan/workspace/SFX/sdl_utils/src/tools/sdl_utils/config/ImageContainerConfig.h
+/home/smeshan/workspace/console type/sdl_utils/src/tools/sdl_utils/config/ImageContainerConfig.h
 utils/tools/ConfigValidator.h
-/home/smeshan/workspace/SFX/sdl_utils/src/tools/utils/tools/ConfigValidator.h
+/home/smeshan/workspace/console type/sdl_utils/src/tools/utils/tools/ConfigValidator.h
 
 /usr/include/SDL2/SDL.h
 SDL_main.h

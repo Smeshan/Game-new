@@ -17,7 +17,7 @@ class Text : public Widget {
 public:
 	~Text();
 	void create(const char* text, int32_t fontId,
-		const Color& color, const Point& pos = Point::ZERO);
+				const Color& color, const Point& pos = Point::ZERO);
 	void destroy();
 	void setText(const char* text);
 	void setColor(const Color& color);
@@ -26,7 +26,7 @@ public:
 
 private:
 	std::string _textContent;
-	Color _color = Colors::BLACK;
+	Color _color = Colors::RED;
 	int32_t _fontId = INVALID_RESOURCES_ID;
 
 };

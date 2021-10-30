@@ -13,11 +13,11 @@
 /* Forward Declaration */
 
 struct GameConfig{
-    int32_t layer2ResId;
-    int32_t pressKeysResId;
     int32_t gameMapId;
+    int32_t consoleId;
 
     int32_t ringSFXId;
+    int32_t singleKeyTypeSndId;
 
     int32_t textFondId;
 };

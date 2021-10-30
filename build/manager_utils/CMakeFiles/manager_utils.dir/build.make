@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/smeshan/workspace/SFX
+CMAKE_SOURCE_DIR = "/home/smeshan/workspace/console type"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/smeshan/workspace/SFX/build
+CMAKE_BINARY_DIR = "/home/smeshan/workspace/console type/build"
 
 # Include any dependencies generated for this target.
 include manager_utils/CMakeFiles/manager_utils.dir/depend.make
@@ -59,16 +59,16 @@ include manager_utils/CMakeFiles/manager_utils.dir/flags.make
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../manager_utils/src/managers/DrawMgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/managers/DrawMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/managers/DrawMgr.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/managers/DrawMgr.cpp > CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/managers/DrawMgr.cpp" > CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/managers/DrawMgr.cpp -o CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/managers/DrawMgr.cpp" -o CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o.requires:
 
@@ -83,16 +83,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o.provides.b
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: ../manager_utils/src/managers/RsrcMgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/managers/RsrcMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/managers/RsrcMgr.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/managers/RsrcMgr.cpp > CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/managers/RsrcMgr.cpp" > CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/managers/RsrcMgr.cpp -o CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/managers/RsrcMgr.cpp" -o CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o.requires:
 
@@ -107,16 +107,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o.provides.b
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../manager_utils/src/managers/MediaMgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/managers/MediaMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/managers/MediaMgr.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/managers/MediaMgr.cpp > CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/managers/MediaMgr.cpp" > CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/managers/MediaMgr.cpp -o CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/managers/MediaMgr.cpp" -o CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o.requires:
 
@@ -131,16 +131,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o.provides.
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/src/managers/ManagerHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/managers/ManagerHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/managers/ManagerHandler.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/managers/ManagerHandler.cpp > CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/managers/ManagerHandler.cpp" > CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/managers/ManagerHandler.cpp -o CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/managers/ManagerHandler.cpp" -o CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o.requires:
 
@@ -155,16 +155,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o.pro
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../manager_utils/src/drawing/Widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/drawing/Widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/drawing/Widget.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/drawing/Widget.cpp > CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/drawing/Widget.cpp" > CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/drawing/Widget.cpp -o CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/drawing/Widget.cpp" -o CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o.requires:
 
@@ -179,16 +179,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o.provides.bui
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: ../manager_utils/src/drawing/Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/drawing/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/drawing/Image.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/drawing/Image.cpp > CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/drawing/Image.cpp" > CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/drawing/Image.cpp -o CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/drawing/Image.cpp" -o CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o.requires:
 
@@ -203,16 +203,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o.provides.buil
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../manager_utils/src/drawing/Text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/drawing/Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/drawing/Text.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/drawing/Text.cpp > CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/drawing/Text.cpp" > CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/drawing/Text.cpp -o CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/drawing/Text.cpp" -o CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o.requires:
 
@@ -227,16 +227,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o.provides.build
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../manager_utils/src/audio/Sound.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/audio/Sound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/audio/Sound.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/audio/Sound.cpp > CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/audio/Sound.cpp" > CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/audio/Sound.cpp -o CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/audio/Sound.cpp" -o CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o.requires:
 
@@ -251,16 +251,16 @@ manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o.provides.build:
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: manager_utils/CMakeFiles/manager_utils.dir/flags.make
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../manager_utils/src/audio/Audio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o -c /home/smeshan/workspace/SFX/manager_utils/src/audio/Audio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o -c "/home/smeshan/workspace/console type/manager_utils/src/audio/Audio.cpp"
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.i"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/smeshan/workspace/SFX/manager_utils/src/audio/Audio.cpp > CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.i
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smeshan/workspace/console type/manager_utils/src/audio/Audio.cpp" > CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.i
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.s"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/smeshan/workspace/SFX/manager_utils/src/audio/Audio.cpp -o CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.s
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smeshan/workspace/console type/manager_utils/src/audio/Audio.cpp" -o CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.s
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o.requires:
 
@@ -299,9 +299,9 @@ manager_utils/libmanager_utils.a: manager_utils/CMakeFiles/manager_utils.dir/src
 manager_utils/libmanager_utils.a: manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o
 manager_utils/libmanager_utils.a: manager_utils/CMakeFiles/manager_utils.dir/build.make
 manager_utils/libmanager_utils.a: manager_utils/CMakeFiles/manager_utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/smeshan/workspace/SFX/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libmanager_utils.a"
-	cd /home/smeshan/workspace/SFX/build/manager_utils && $(CMAKE_COMMAND) -P CMakeFiles/manager_utils.dir/cmake_clean_target.cmake
-	cd /home/smeshan/workspace/SFX/build/manager_utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/manager_utils.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/smeshan/workspace/console type/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libmanager_utils.a"
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && $(CMAKE_COMMAND) -P CMakeFiles/manager_utils.dir/cmake_clean_target.cmake
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/manager_utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 manager_utils/CMakeFiles/manager_utils.dir/build: manager_utils/libmanager_utils.a
@@ -321,10 +321,10 @@ manager_utils/CMakeFiles/manager_utils.dir/requires: manager_utils/CMakeFiles/ma
 .PHONY : manager_utils/CMakeFiles/manager_utils.dir/requires
 
 manager_utils/CMakeFiles/manager_utils.dir/clean:
-	cd /home/smeshan/workspace/SFX/build/manager_utils && $(CMAKE_COMMAND) -P CMakeFiles/manager_utils.dir/cmake_clean.cmake
+	cd "/home/smeshan/workspace/console type/build/manager_utils" && $(CMAKE_COMMAND) -P CMakeFiles/manager_utils.dir/cmake_clean.cmake
 .PHONY : manager_utils/CMakeFiles/manager_utils.dir/clean
 
 manager_utils/CMakeFiles/manager_utils.dir/depend:
-	cd /home/smeshan/workspace/SFX/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smeshan/workspace/SFX /home/smeshan/workspace/SFX/manager_utils /home/smeshan/workspace/SFX/build /home/smeshan/workspace/SFX/build/manager_utils /home/smeshan/workspace/SFX/build/manager_utils/CMakeFiles/manager_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/smeshan/workspace/console type" "/home/smeshan/workspace/console type/manager_utils" "/home/smeshan/workspace/console type/build" "/home/smeshan/workspace/console type/build/manager_utils" "/home/smeshan/workspace/console type/build/manager_utils/CMakeFiles/manager_utils.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : manager_utils/CMakeFiles/manager_utils.dir/depend
 

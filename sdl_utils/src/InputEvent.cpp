@@ -12,7 +12,7 @@
 /* Own icnludes */
 
 int32_t InputEvent::init() {
-	_sdlEvent = new SDL_Event { };
+	_sdlEvent = new SDL_Event{ };
 	if (!_sdlEvent) {
 		std::cerr << "Bad alloc for SDL_Event()." << std::endl;
 	}
@@ -37,11 +37,16 @@ bool InputEvent::pollEvent() {
 
 bool InputEvent::checkForExitRequest() const {
 	return (_sdlEvent->type == EventType::QUIT)
-			|| (type == TouchEvent::KEYBOARD_PRESS && Keyboard::KEY_ESCAPE == key);
+		|| (type == TouchEvent::KEYBOARD_PRESS && Keyboard::KEY_ESCAPE == key);
 }
 
 void InputEvent::setEventTypeInternal() {
 	switch (_sdlEvent->type) {
+	case EventType::TEXT_INPUT:
+		text = _sdlEvent->text.text;
+		mouseButton = Mouse::UNKNOWN;
+		type = TouchEvent::TYPING;
+		break;
 	case EventType::KEYBOARD_PRESS:
 		key = _sdlEvent->key.keysym.sym;
 		mouseButton = Mouse::UNKNOWN;

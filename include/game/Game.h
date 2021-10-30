@@ -13,10 +13,10 @@
 #include "manager_utils/drawing/Text.h"
 #include "manager_utils/audio/Sound.h"
 //#include "manager_utils/audio/Music.h"
+#include "game/entities/Console.h"
 
 /* Forward declaration */
 struct InputEvent;
-
 
 class Game {
 public:
@@ -26,11 +26,9 @@ public:
     void handleEvent(const InputEvent& e);
 
 private:
-    Image pressKeysImg;
     Image gameMapImg;
-    Image layer2img;
 
-    Text helloText;
+    Console _console;
 
     Sound ringSFX;
     //Music ringtoneMusic;
