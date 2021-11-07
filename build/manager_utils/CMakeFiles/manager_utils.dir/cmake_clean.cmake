@@ -6,8 +6,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o"
   "CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o"
   "CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o"
+  "CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o"
+  "CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o"
   "CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o"
   "CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o"
+  "CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o"
   "libmanager_utils.pdb"
   "libmanager_utils.a"
 )

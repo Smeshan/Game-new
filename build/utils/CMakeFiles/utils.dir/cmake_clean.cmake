@@ -5,6 +5,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o"
   "CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o"
   "CMakeFiles/utils.dir/src/time/Time.cpp.o"
+  "CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.o"
+  "CMakeFiles/utils.dir/src/tools/ConfigExtractor.cpp.o"
+  "CMakeFiles/utils.dir/src/tools/ConfigValidator.cpp.o"
+  "CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o"
   "libutils.pdb"
   "libutils.a"
 )

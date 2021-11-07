@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/smeshan/workspace/console type"
+CMAKE_SOURCE_DIR = /home/smeshan/workspace/buttons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/smeshan/workspace/console type/build"
+CMAKE_BINARY_DIR = /home/smeshan/workspace/buttons/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" "/home/smeshan/workspace/console type/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/buttons/build/CMakeFiles /home/smeshan/workspace/buttons/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/buttons/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named console_type
+# Target rules for targets named buttons
 
 # Build rule for target.
-console_type: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 console_type
-.PHONY : console_type
+buttons: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 buttons
+.PHONY : buttons
 
 # fast build rule for target.
-console_type/fast:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/build
-.PHONY : console_type/fast
+buttons/fast:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/build
+.PHONY : buttons/fast
 
 #=============================================================================
 # Target rules for targets named utils
@@ -168,7 +168,7 @@ src/engine/Engine.o: src/engine/Engine.cpp.o
 
 # target to build an object file
 src/engine/Engine.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/Engine.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/engine/Engine.cpp.o
 .PHONY : src/engine/Engine.cpp.o
 
 src/engine/Engine.i: src/engine/Engine.cpp.i
@@ -177,7 +177,7 @@ src/engine/Engine.i: src/engine/Engine.cpp.i
 
 # target to preprocess a source file
 src/engine/Engine.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/Engine.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/engine/Engine.cpp.i
 .PHONY : src/engine/Engine.cpp.i
 
 src/engine/Engine.s: src/engine/Engine.cpp.s
@@ -186,7 +186,7 @@ src/engine/Engine.s: src/engine/Engine.cpp.s
 
 # target to generate assembly for a file
 src/engine/Engine.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/Engine.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/engine/Engine.cpp.s
 .PHONY : src/engine/Engine.cpp.s
 
 src/engine/EngineConfigLoader.o: src/engine/EngineConfigLoader.cpp.o
@@ -195,7 +195,7 @@ src/engine/EngineConfigLoader.o: src/engine/EngineConfigLoader.cpp.o
 
 # target to build an object file
 src/engine/EngineConfigLoader.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/EngineConfigLoader.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/engine/EngineConfigLoader.cpp.o
 .PHONY : src/engine/EngineConfigLoader.cpp.o
 
 src/engine/EngineConfigLoader.i: src/engine/EngineConfigLoader.cpp.i
@@ -204,7 +204,7 @@ src/engine/EngineConfigLoader.i: src/engine/EngineConfigLoader.cpp.i
 
 # target to preprocess a source file
 src/engine/EngineConfigLoader.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/EngineConfigLoader.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/engine/EngineConfigLoader.cpp.i
 .PHONY : src/engine/EngineConfigLoader.cpp.i
 
 src/engine/EngineConfigLoader.s: src/engine/EngineConfigLoader.cpp.s
@@ -213,7 +213,7 @@ src/engine/EngineConfigLoader.s: src/engine/EngineConfigLoader.cpp.s
 
 # target to generate assembly for a file
 src/engine/EngineConfigLoader.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/engine/EngineConfigLoader.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/engine/EngineConfigLoader.cpp.s
 .PHONY : src/engine/EngineConfigLoader.cpp.s
 
 src/game/Game.o: src/game/Game.cpp.o
@@ -222,7 +222,7 @@ src/game/Game.o: src/game/Game.cpp.o
 
 # target to build an object file
 src/game/Game.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/Game.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/Game.cpp.o
 .PHONY : src/game/Game.cpp.o
 
 src/game/Game.i: src/game/Game.cpp.i
@@ -231,7 +231,7 @@ src/game/Game.i: src/game/Game.cpp.i
 
 # target to preprocess a source file
 src/game/Game.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/Game.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/Game.cpp.i
 .PHONY : src/game/Game.cpp.i
 
 src/game/Game.s: src/game/Game.cpp.s
@@ -240,7 +240,7 @@ src/game/Game.s: src/game/Game.cpp.s
 
 # target to generate assembly for a file
 src/game/Game.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/Game.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/Game.cpp.s
 .PHONY : src/game/Game.cpp.s
 
 src/game/entities/Console.o: src/game/entities/Console.cpp.o
@@ -249,7 +249,7 @@ src/game/entities/Console.o: src/game/entities/Console.cpp.o
 
 # target to build an object file
 src/game/entities/Console.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/Console.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/Console.cpp.o
 .PHONY : src/game/entities/Console.cpp.o
 
 src/game/entities/Console.i: src/game/entities/Console.cpp.i
@@ -258,7 +258,7 @@ src/game/entities/Console.i: src/game/entities/Console.cpp.i
 
 # target to preprocess a source file
 src/game/entities/Console.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/Console.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/Console.cpp.i
 .PHONY : src/game/entities/Console.cpp.i
 
 src/game/entities/Console.s: src/game/entities/Console.cpp.s
@@ -267,7 +267,7 @@ src/game/entities/Console.s: src/game/entities/Console.cpp.s
 
 # target to generate assembly for a file
 src/game/entities/Console.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/Console.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/Console.cpp.s
 .PHONY : src/game/entities/Console.cpp.s
 
 src/game/entities/KeyWords.o: src/game/entities/KeyWords.cpp.o
@@ -276,7 +276,7 @@ src/game/entities/KeyWords.o: src/game/entities/KeyWords.cpp.o
 
 # target to build an object file
 src/game/entities/KeyWords.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/KeyWords.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/KeyWords.cpp.o
 .PHONY : src/game/entities/KeyWords.cpp.o
 
 src/game/entities/KeyWords.i: src/game/entities/KeyWords.cpp.i
@@ -285,7 +285,7 @@ src/game/entities/KeyWords.i: src/game/entities/KeyWords.cpp.i
 
 # target to preprocess a source file
 src/game/entities/KeyWords.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/KeyWords.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/KeyWords.cpp.i
 .PHONY : src/game/entities/KeyWords.cpp.i
 
 src/game/entities/KeyWords.s: src/game/entities/KeyWords.cpp.s
@@ -294,7 +294,7 @@ src/game/entities/KeyWords.s: src/game/entities/KeyWords.cpp.s
 
 # target to generate assembly for a file
 src/game/entities/KeyWords.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/KeyWords.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/KeyWords.cpp.s
 .PHONY : src/game/entities/KeyWords.cpp.s
 
 src/game/entities/TextField.o: src/game/entities/TextField.cpp.o
@@ -303,7 +303,7 @@ src/game/entities/TextField.o: src/game/entities/TextField.cpp.o
 
 # target to build an object file
 src/game/entities/TextField.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextField.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/TextField.cpp.o
 .PHONY : src/game/entities/TextField.cpp.o
 
 src/game/entities/TextField.i: src/game/entities/TextField.cpp.i
@@ -312,7 +312,7 @@ src/game/entities/TextField.i: src/game/entities/TextField.cpp.i
 
 # target to preprocess a source file
 src/game/entities/TextField.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextField.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/TextField.cpp.i
 .PHONY : src/game/entities/TextField.cpp.i
 
 src/game/entities/TextField.s: src/game/entities/TextField.cpp.s
@@ -321,7 +321,7 @@ src/game/entities/TextField.s: src/game/entities/TextField.cpp.s
 
 # target to generate assembly for a file
 src/game/entities/TextField.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextField.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/TextField.cpp.s
 .PHONY : src/game/entities/TextField.cpp.s
 
 src/game/entities/TextLine.o: src/game/entities/TextLine.cpp.o
@@ -330,7 +330,7 @@ src/game/entities/TextLine.o: src/game/entities/TextLine.cpp.o
 
 # target to build an object file
 src/game/entities/TextLine.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextLine.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/TextLine.cpp.o
 .PHONY : src/game/entities/TextLine.cpp.o
 
 src/game/entities/TextLine.i: src/game/entities/TextLine.cpp.i
@@ -339,7 +339,7 @@ src/game/entities/TextLine.i: src/game/entities/TextLine.cpp.i
 
 # target to preprocess a source file
 src/game/entities/TextLine.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextLine.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/TextLine.cpp.i
 .PHONY : src/game/entities/TextLine.cpp.i
 
 src/game/entities/TextLine.s: src/game/entities/TextLine.cpp.s
@@ -348,8 +348,197 @@ src/game/entities/TextLine.s: src/game/entities/TextLine.cpp.s
 
 # target to generate assembly for a file
 src/game/entities/TextLine.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/game/entities/TextLine.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/TextLine.cpp.s
 .PHONY : src/game/entities/TextLine.cpp.s
+
+src/game/entities/building/Building.o: src/game/entities/building/Building.cpp.o
+
+.PHONY : src/game/entities/building/Building.o
+
+# target to build an object file
+src/game/entities/building/Building.cpp.o:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/building/Building.cpp.o
+.PHONY : src/game/entities/building/Building.cpp.o
+
+src/game/entities/building/Building.i: src/game/entities/building/Building.cpp.i
+
+.PHONY : src/game/entities/building/Building.i
+
+# target to preprocess a source file
+src/game/entities/building/Building.cpp.i:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/building/Building.cpp.i
+.PHONY : src/game/entities/building/Building.cpp.i
+
+src/game/entities/building/Building.s: src/game/entities/building/Building.cpp.s
+
+.PHONY : src/game/entities/building/Building.s
+
+# target to generate assembly for a file
+src/game/entities/building/Building.cpp.s:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/building/Building.cpp.s
+.PHONY : src/game/entities/building/Building.cpp.s
+
+src/game/entities/building/FloorTile.o: src/game/entities/building/FloorTile.cpp.o
+
+.PHONY : src/game/entities/building/FloorTile.o
+
+# target to build an object file
+src/game/entities/building/FloorTile.cpp.o:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/building/FloorTile.cpp.o
+.PHONY : src/game/entities/building/FloorTile.cpp.o
+
+src/game/entities/building/FloorTile.i: src/game/entities/building/FloorTile.cpp.i
+
+.PHONY : src/game/entities/building/FloorTile.i
+
+# target to preprocess a source file
+src/game/entities/building/FloorTile.cpp.i:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/building/FloorTile.cpp.i
+.PHONY : src/game/entities/building/FloorTile.cpp.i
+
+src/game/entities/building/FloorTile.s: src/game/entities/building/FloorTile.cpp.s
+
+.PHONY : src/game/entities/building/FloorTile.s
+
+# target to generate assembly for a file
+src/game/entities/building/FloorTile.cpp.s:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/entities/building/FloorTile.cpp.s
+.PHONY : src/game/entities/building/FloorTile.cpp.s
+
+src/game/screens/GameScreen.o: src/game/screens/GameScreen.cpp.o
+
+.PHONY : src/game/screens/GameScreen.o
+
+# target to build an object file
+src/game/screens/GameScreen.cpp.o:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/GameScreen.cpp.o
+.PHONY : src/game/screens/GameScreen.cpp.o
+
+src/game/screens/GameScreen.i: src/game/screens/GameScreen.cpp.i
+
+.PHONY : src/game/screens/GameScreen.i
+
+# target to preprocess a source file
+src/game/screens/GameScreen.cpp.i:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/GameScreen.cpp.i
+.PHONY : src/game/screens/GameScreen.cpp.i
+
+src/game/screens/GameScreen.s: src/game/screens/GameScreen.cpp.s
+
+.PHONY : src/game/screens/GameScreen.s
+
+# target to generate assembly for a file
+src/game/screens/GameScreen.cpp.s:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/GameScreen.cpp.s
+.PHONY : src/game/screens/GameScreen.cpp.s
+
+src/game/screens/MenuScreen.o: src/game/screens/MenuScreen.cpp.o
+
+.PHONY : src/game/screens/MenuScreen.o
+
+# target to build an object file
+src/game/screens/MenuScreen.cpp.o:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/MenuScreen.cpp.o
+.PHONY : src/game/screens/MenuScreen.cpp.o
+
+src/game/screens/MenuScreen.i: src/game/screens/MenuScreen.cpp.i
+
+.PHONY : src/game/screens/MenuScreen.i
+
+# target to preprocess a source file
+src/game/screens/MenuScreen.cpp.i:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/MenuScreen.cpp.i
+.PHONY : src/game/screens/MenuScreen.cpp.i
+
+src/game/screens/MenuScreen.s: src/game/screens/MenuScreen.cpp.s
+
+.PHONY : src/game/screens/MenuScreen.s
+
+# target to generate assembly for a file
+src/game/screens/MenuScreen.cpp.s:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/MenuScreen.cpp.s
+.PHONY : src/game/screens/MenuScreen.cpp.s
+
+src/game/screens/SettingsScreen.o: src/game/screens/SettingsScreen.cpp.o
+
+.PHONY : src/game/screens/SettingsScreen.o
+
+# target to build an object file
+src/game/screens/SettingsScreen.cpp.o:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/SettingsScreen.cpp.o
+.PHONY : src/game/screens/SettingsScreen.cpp.o
+
+src/game/screens/SettingsScreen.i: src/game/screens/SettingsScreen.cpp.i
+
+.PHONY : src/game/screens/SettingsScreen.i
+
+# target to preprocess a source file
+src/game/screens/SettingsScreen.cpp.i:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/SettingsScreen.cpp.i
+.PHONY : src/game/screens/SettingsScreen.cpp.i
+
+src/game/screens/SettingsScreen.s: src/game/screens/SettingsScreen.cpp.s
+
+.PHONY : src/game/screens/SettingsScreen.s
+
+# target to generate assembly for a file
+src/game/screens/SettingsScreen.cpp.s:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/screens/SettingsScreen.cpp.s
+.PHONY : src/game/screens/SettingsScreen.cpp.s
+
+src/game/ui_buttons/MenuButton.o: src/game/ui_buttons/MenuButton.cpp.o
+
+.PHONY : src/game/ui_buttons/MenuButton.o
+
+# target to build an object file
+src/game/ui_buttons/MenuButton.cpp.o:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/ui_buttons/MenuButton.cpp.o
+.PHONY : src/game/ui_buttons/MenuButton.cpp.o
+
+src/game/ui_buttons/MenuButton.i: src/game/ui_buttons/MenuButton.cpp.i
+
+.PHONY : src/game/ui_buttons/MenuButton.i
+
+# target to preprocess a source file
+src/game/ui_buttons/MenuButton.cpp.i:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/ui_buttons/MenuButton.cpp.i
+.PHONY : src/game/ui_buttons/MenuButton.cpp.i
+
+src/game/ui_buttons/MenuButton.s: src/game/ui_buttons/MenuButton.cpp.s
+
+.PHONY : src/game/ui_buttons/MenuButton.s
+
+# target to generate assembly for a file
+src/game/ui_buttons/MenuButton.cpp.s:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/ui_buttons/MenuButton.cpp.s
+.PHONY : src/game/ui_buttons/MenuButton.cpp.s
+
+src/game/ui_buttons/TestButton.o: src/game/ui_buttons/TestButton.cpp.o
+
+.PHONY : src/game/ui_buttons/TestButton.o
+
+# target to build an object file
+src/game/ui_buttons/TestButton.cpp.o:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/ui_buttons/TestButton.cpp.o
+.PHONY : src/game/ui_buttons/TestButton.cpp.o
+
+src/game/ui_buttons/TestButton.i: src/game/ui_buttons/TestButton.cpp.i
+
+.PHONY : src/game/ui_buttons/TestButton.i
+
+# target to preprocess a source file
+src/game/ui_buttons/TestButton.cpp.i:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/ui_buttons/TestButton.cpp.i
+.PHONY : src/game/ui_buttons/TestButton.cpp.i
+
+src/game/ui_buttons/TestButton.s: src/game/ui_buttons/TestButton.cpp.s
+
+.PHONY : src/game/ui_buttons/TestButton.s
+
+# target to generate assembly for a file
+src/game/ui_buttons/TestButton.cpp.s:
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/game/ui_buttons/TestButton.cpp.s
+.PHONY : src/game/ui_buttons/TestButton.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -357,7 +546,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -366,7 +555,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -375,7 +564,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/console_type.dir/build.make CMakeFiles/console_type.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/buttons.dir/build.make CMakeFiles/buttons.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -385,7 +574,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... console_type"
+	@echo "... buttons"
 	@echo "... edit_cache"
 	@echo "... utils"
 	@echo "... sdl_utils"
@@ -411,6 +600,27 @@ help:
 	@echo "... src/game/entities/TextLine.o"
 	@echo "... src/game/entities/TextLine.i"
 	@echo "... src/game/entities/TextLine.s"
+	@echo "... src/game/entities/building/Building.o"
+	@echo "... src/game/entities/building/Building.i"
+	@echo "... src/game/entities/building/Building.s"
+	@echo "... src/game/entities/building/FloorTile.o"
+	@echo "... src/game/entities/building/FloorTile.i"
+	@echo "... src/game/entities/building/FloorTile.s"
+	@echo "... src/game/screens/GameScreen.o"
+	@echo "... src/game/screens/GameScreen.i"
+	@echo "... src/game/screens/GameScreen.s"
+	@echo "... src/game/screens/MenuScreen.o"
+	@echo "... src/game/screens/MenuScreen.i"
+	@echo "... src/game/screens/MenuScreen.s"
+	@echo "... src/game/screens/SettingsScreen.o"
+	@echo "... src/game/screens/SettingsScreen.i"
+	@echo "... src/game/screens/SettingsScreen.s"
+	@echo "... src/game/ui_buttons/MenuButton.o"
+	@echo "... src/game/ui_buttons/MenuButton.i"
+	@echo "... src/game/ui_buttons/MenuButton.s"
+	@echo "... src/game/ui_buttons/TestButton.o"
+	@echo "... src/game/ui_buttons/TestButton.i"
+	@echo "... src/game/ui_buttons/TestButton.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

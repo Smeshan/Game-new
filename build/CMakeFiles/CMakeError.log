@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp
+Change Dir: /home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5042f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5042f.dir/build.make CMakeFiles/cmTC_5042f.dir/build
-make[1]: Entering directory '/home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5042f.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_5042f.dir/CheckSymbolExists.cxx.o -c "/home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
-Linking CXX executable cmTC_5042f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5042f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_5042f.dir/CheckSymbolExists.cxx.o  -o cmTC_5042f 
-CMakeFiles/cmTC_5042f.dir/CheckSymbolExists.cxx.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_ef65e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef65e.dir/build.make CMakeFiles/cmTC_ef65e.dir/build
+make[1]: Entering directory '/home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef65e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_ef65e.dir/CheckSymbolExists.cxx.o -c /home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_ef65e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef65e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ef65e.dir/CheckSymbolExists.cxx.o  -o cmTC_ef65e 
+CMakeFiles/cmTC_ef65e.dir/CheckSymbolExists.cxx.o: In function `main':
 CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5042f.dir/build.make:97: recipe for target 'cmTC_5042f' failed
-make[1]: *** [cmTC_5042f] Error 1
-make[1]: Leaving directory '/home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_5042f/fast' failed
-make: *** [cmTC_5042f/fast] Error 2
+CMakeFiles/cmTC_ef65e.dir/build.make:97: recipe for target 'cmTC_ef65e' failed
+make[1]: *** [cmTC_ef65e] Error 1
+make[1]: Leaving directory '/home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ef65e/fast' failed
+make: *** [cmTC_ef65e/fast] Error 2
 
-File /home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp
+Change Dir: /home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4d908/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4d908.dir/build.make CMakeFiles/cmTC_4d908.dir/build
-make[1]: Entering directory '/home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4d908.dir/CheckFunctionExists.cxx.o
-/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4d908.dir/CheckFunctionExists.cxx.o -c "/home/smeshan/workspace/console type/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx"
-Linking CXX executable cmTC_4d908
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d908.dir/link.txt --verbose=1
-/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4d908.dir/CheckFunctionExists.cxx.o  -o cmTC_4d908 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_833cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_833cc.dir/build.make CMakeFiles/cmTC_833cc.dir/build
+make[1]: Entering directory '/home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_833cc.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_833cc.dir/CheckFunctionExists.cxx.o -c /home/smeshan/workspace/buttons/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_833cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_833cc.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_833cc.dir/CheckFunctionExists.cxx.o  -o cmTC_833cc -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4d908.dir/build.make:97: recipe for target 'cmTC_4d908' failed
-make[1]: *** [cmTC_4d908] Error 1
-make[1]: Leaving directory '/home/smeshan/workspace/console type/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4d908/fast' failed
-make: *** [cmTC_4d908/fast] Error 2
+CMakeFiles/cmTC_833cc.dir/build.make:97: recipe for target 'cmTC_833cc' failed
+make[1]: *** [cmTC_833cc] Error 1
+make[1]: Leaving directory '/home/smeshan/workspace/buttons/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_833cc/fast' failed
+make: *** [cmTC_833cc/fast] Error 2
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/smeshan/workspace/console type/utils
+# Install script for directory: /home/smeshan/workspace/buttons/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,6 +6,7 @@ utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o: ../utils/src/drawing/Color.c
 
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o: ../utils/include/utils/drawing/DrawParams.h
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o: ../utils/include/utils/drawing/Point.h
+utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o: ../utils/include/utils/drawing/Rectangle.h
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o: ../utils/src/drawing/DrawParams.cpp
 
 utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o: ../utils/include/utils/drawing/Point.h
@@ -20,4 +21,23 @@ utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o: ../utils/src/thread/Thr
 
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.o: ../utils/include/utils/time/Time.h
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.o: ../utils/src/time/Time.cpp
+
+utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.o: ../utils/include/utils/common/CommonPaths.h
+utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.o: ../utils/include/utils/tools/AutoResLoader.h
+utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.o: ../utils/include/utils/tools/Resource.h
+utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.o: ../utils/src/tools/AutoResLoader.cpp
+
+utils/CMakeFiles/utils.dir/src/tools/ConfigExtractor.cpp.o: ../utils/include/utils/tools/ConfigExtractor.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigExtractor.cpp.o: ../utils/src/tools/ConfigExtractor.cpp
+
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o: ../utils/include/utils/drawing/Point.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o: ../utils/include/utils/tools/ConfigProcessor.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o: ../utils/include/utils/tools/ConfigValidator.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o: ../utils/include/utils/tools/Resource.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o: ../utils/include/utils/tools/config/ImageConfig.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o: ../utils/src/tools/ConfigProcessor.cpp
+
+utils/CMakeFiles/utils.dir/src/tools/ConfigValidator.cpp.o: ../utils/include/utils/tools/ConfigValidator.h
+utils/CMakeFiles/utils.dir/src/tools/ConfigValidator.cpp.o: ../utils/src/tools/ConfigValidator.cpp
 

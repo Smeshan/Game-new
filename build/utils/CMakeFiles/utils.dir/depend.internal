@@ -3,21 +3,41 @@
 
 utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o
  ../utils/include/utils/drawing/Color.h
- /home/smeshan/workspace/console type/utils/src/drawing/Color.cpp
+ /home/smeshan/workspace/buttons/utils/src/drawing/Color.cpp
 utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o
  ../utils/include/utils/drawing/DrawParams.h
  ../utils/include/utils/drawing/Point.h
- /home/smeshan/workspace/console type/utils/src/drawing/DrawParams.cpp
+ ../utils/include/utils/drawing/Rectangle.h
+ /home/smeshan/workspace/buttons/utils/src/drawing/DrawParams.cpp
 utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o
  ../utils/include/utils/drawing/Point.h
- /home/smeshan/workspace/console type/utils/src/drawing/Point.cpp
+ /home/smeshan/workspace/buttons/utils/src/drawing/Point.cpp
 utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o
  ../utils/include/utils/drawing/Point.h
  ../utils/include/utils/drawing/Rectangle.h
- /home/smeshan/workspace/console type/utils/src/drawing/Rectangle.cpp
+ /home/smeshan/workspace/buttons/utils/src/drawing/Rectangle.cpp
 utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o
  ../utils/include/utils/thread/ThreadUtils.h
- /home/smeshan/workspace/console type/utils/src/thread/ThreadUtils.cpp
+ /home/smeshan/workspace/buttons/utils/src/thread/ThreadUtils.cpp
 utils/CMakeFiles/utils.dir/src/time/Time.cpp.o
  ../utils/include/utils/time/Time.h
- /home/smeshan/workspace/console type/utils/src/time/Time.cpp
+ /home/smeshan/workspace/buttons/utils/src/time/Time.cpp
+utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.o
+ ../utils/include/utils/common/CommonPaths.h
+ ../utils/include/utils/tools/AutoResLoader.h
+ ../utils/include/utils/tools/Resource.h
+ /home/smeshan/workspace/buttons/utils/src/tools/AutoResLoader.cpp
+utils/CMakeFiles/utils.dir/src/tools/ConfigExtractor.cpp.o
+ ../utils/include/utils/tools/ConfigExtractor.h
+ /home/smeshan/workspace/buttons/utils/src/tools/ConfigExtractor.cpp
+utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o
+ ../utils/include/utils/drawing/Point.h
+ ../utils/include/utils/drawing/Rectangle.h
+ ../utils/include/utils/tools/ConfigProcessor.h
+ ../utils/include/utils/tools/ConfigValidator.h
+ ../utils/include/utils/tools/Resource.h
+ ../utils/include/utils/tools/config/ImageConfig.h
+ /home/smeshan/workspace/buttons/utils/src/tools/ConfigProcessor.cpp
+utils/CMakeFiles/utils.dir/src/tools/ConfigValidator.cpp.o
+ ../utils/include/utils/tools/ConfigValidator.h
+ /home/smeshan/workspace/buttons/utils/src/tools/ConfigValidator.cpp

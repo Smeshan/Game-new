@@ -4,15 +4,32 @@
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../manager_utils/include/manager_utils/audio/Audio.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../manager_utils/include/manager_utils/managers/MediaMgr.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../manager_utils/include/manager_utils/managers/MgrBase.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../sdl_utils/include/sdl_utils/Media.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../sdl_utils/include/sdl_utils/config/MusicContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../sdl_utils/include/sdl_utils/containers/MusicContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Audio.cpp.o: ../manager_utils/src/audio/Audio.cpp
+
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../manager_utils/include/manager_utils/audio/Audio.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../manager_utils/include/manager_utils/audio/Music.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../manager_utils/include/manager_utils/managers/MediaMgr.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../manager_utils/include/manager_utils/managers/MgrBase.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../sdl_utils/include/sdl_utils/Media.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../sdl_utils/include/sdl_utils/config/MusicContainerConfig.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../sdl_utils/include/sdl_utils/containers/MusicContainer.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Music.cpp.o: ../manager_utils/src/audio/Music.cpp
 
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../manager_utils/include/manager_utils/audio/Audio.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../manager_utils/include/manager_utils/audio/Sound.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../manager_utils/include/manager_utils/managers/MediaMgr.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../manager_utils/include/manager_utils/managers/MgrBase.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../sdl_utils/include/sdl_utils/Media.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../sdl_utils/include/sdl_utils/config/MusicContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
+manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../sdl_utils/include/sdl_utils/containers/MusicContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/audio/Sound.cpp.o: ../manager_utils/src/audio/Sound.cpp
 
@@ -27,6 +44,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: ../sdl_utils
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: ../utils/include/utils/drawing/DrawParams.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: ../utils/include/utils/drawing/Point.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: ../utils/include/utils/tools/config/ImageConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Image.cpp.o: ../manager_utils/src/drawing/Image.cpp
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../manager_utils/include/manager_utils/drawing/Text.h
@@ -41,6 +59,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../utils/incl
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../utils/include/utils/drawing/DrawParams.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../utils/include/utils/drawing/Point.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../utils/include/utils/tools/config/ImageConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Text.cpp.o: ../manager_utils/src/drawing/Text.cpp
 
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../manager_utils/include/manager_utils/drawing/Widget.h
@@ -50,7 +69,31 @@ manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../sdl_util
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../sdl_utils/include/sdl_utils/Renderer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../utils/include/utils/drawing/DrawParams.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../utils/include/utils/drawing/Point.h
+manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../utils/include/utils/drawing/Rectangle.h
 manager_utils/CMakeFiles/manager_utils.dir/src/drawing/Widget.cpp.o: ../manager_utils/src/drawing/Widget.cpp
+
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../manager_utils/include/manager_utils/drawing/Image.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../manager_utils/include/manager_utils/drawing/Text.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../manager_utils/include/manager_utils/drawing/Widget.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../manager_utils/include/manager_utils/input/ButtonBase.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../sdl_utils/include/sdl_utils/InputEvent.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../utils/include/utils/drawing/Color.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../utils/include/utils/drawing/DrawParams.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../utils/include/utils/drawing/Point.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../utils/include/utils/input/EventDefines.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/ButtonBase.cpp.o: ../manager_utils/src/input/ButtonBase.cpp
+
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../manager_utils/include/manager_utils/drawing/Text.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../manager_utils/include/manager_utils/drawing/Widget.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../manager_utils/include/manager_utils/input/TextButtonBase.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../sdl_utils/include/sdl_utils/InputEvent.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../utils/include/utils/drawing/Color.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../utils/include/utils/drawing/DrawParams.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../utils/include/utils/drawing/Point.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../utils/include/utils/input/EventDefines.h
+manager_utils/CMakeFiles/manager_utils.dir/src/input/TextButtonBase.cpp.o: ../manager_utils/src/input/TextButtonBase.cpp
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../manager_utils/include/manager_utils/config/DrawMgrConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../manager_utils/include/manager_utils/managers/DrawMgr.h
@@ -66,6 +109,7 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../sdl_ut
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../utils/include/utils/drawing/DrawParams.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../utils/include/utils/drawing/Point.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../utils/include/utils/tools/config/ImageConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/DrawMgr.cpp.o: ../manager_utils/src/managers/DrawMgr.cpp
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/config/DrawMgrConfig.h
@@ -77,24 +121,31 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ..
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/MediaMgr.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/MgrBase.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/include/manager_utils/managers/RsrcMgr.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/Media.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/Monitor.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/Renderer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/config/ImageContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/config/MonitorConfig.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/config/MusicContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/config/TextContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/containers/ImageContainer.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/containers/MusicContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../sdl_utils/include/sdl_utils/containers/TextContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../utils/include/utils/drawing/DrawParams.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../utils/include/utils/drawing/Point.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../utils/include/utils/tools/config/ImageConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/ManagerHandler.cpp.o: ../manager_utils/src/managers/ManagerHandler.cpp
 
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../manager_utils/include/manager_utils/config/MediaMgrConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../manager_utils/include/manager_utils/managers/MediaMgr.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../manager_utils/include/manager_utils/managers/MgrBase.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../sdl_utils/include/sdl_utils/Media.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../sdl_utils/include/sdl_utils/config/MusicContainerConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../sdl_utils/include/sdl_utils/containers/MusicContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/MediaMgr.cpp.o: ../manager_utils/src/managers/MediaMgr.cpp
 
@@ -107,5 +158,6 @@ manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: ../sdl_ut
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: ../sdl_utils/include/sdl_utils/containers/TextContainer.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: ../utils/include/utils/drawing/Point.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: ../utils/include/utils/drawing/Rectangle.h
+manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: ../utils/include/utils/tools/config/ImageConfig.h
 manager_utils/CMakeFiles/manager_utils.dir/src/managers/RsrcMgr.cpp.o: ../manager_utils/src/managers/RsrcMgr.cpp
 

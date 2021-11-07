@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/smeshan/workspace/console type"
+CMAKE_SOURCE_DIR = /home/smeshan/workspace/buttons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/smeshan/workspace/console type/build"
+CMAKE_BINARY_DIR = /home/smeshan/workspace/buttons/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" "/home/smeshan/workspace/console type/build/sdl_utils/CMakeFiles/progress.marks"
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" 0
+	cd /home/smeshan/workspace/buttons/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/buttons/build/CMakeFiles /home/smeshan/workspace/buttons/build/sdl_utils/CMakeFiles/progress.marks
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/buttons/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/clean
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/preinstall
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/preinstall
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smeshan/workspace/buttons/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sdl_utils/CMakeFiles/sdl_utils.dir/rule:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/CMakeFiles/sdl_utils.dir/rule
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 sdl_utils/CMakeFiles/sdl_utils.dir/rule
 .PHONY : sdl_utils/CMakeFiles/sdl_utils.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ sdl_utils: sdl_utils/CMakeFiles/sdl_utils.dir/rule
 
 # fast build rule for target.
 sdl_utils/fast:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/build
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/build
 .PHONY : sdl_utils/fast
 
 src/InputEvent.o: src/InputEvent.cpp.o
@@ -131,7 +131,7 @@ src/InputEvent.o: src/InputEvent.cpp.o
 
 # target to build an object file
 src/InputEvent.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/InputEvent.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/InputEvent.cpp.o
 .PHONY : src/InputEvent.cpp.o
 
 src/InputEvent.i: src/InputEvent.cpp.i
@@ -140,7 +140,7 @@ src/InputEvent.i: src/InputEvent.cpp.i
 
 # target to preprocess a source file
 src/InputEvent.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/InputEvent.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/InputEvent.cpp.i
 .PHONY : src/InputEvent.cpp.i
 
 src/InputEvent.s: src/InputEvent.cpp.s
@@ -149,7 +149,7 @@ src/InputEvent.s: src/InputEvent.cpp.s
 
 # target to generate assembly for a file
 src/InputEvent.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/InputEvent.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/InputEvent.cpp.s
 .PHONY : src/InputEvent.cpp.s
 
 src/Media.o: src/Media.cpp.o
@@ -158,7 +158,7 @@ src/Media.o: src/Media.cpp.o
 
 # target to build an object file
 src/Media.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Media.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Media.cpp.o
 .PHONY : src/Media.cpp.o
 
 src/Media.i: src/Media.cpp.i
@@ -167,7 +167,7 @@ src/Media.i: src/Media.cpp.i
 
 # target to preprocess a source file
 src/Media.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Media.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Media.cpp.i
 .PHONY : src/Media.cpp.i
 
 src/Media.s: src/Media.cpp.s
@@ -176,7 +176,7 @@ src/Media.s: src/Media.cpp.s
 
 # target to generate assembly for a file
 src/Media.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Media.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Media.cpp.s
 .PHONY : src/Media.cpp.s
 
 src/Monitor.o: src/Monitor.cpp.o
@@ -185,7 +185,7 @@ src/Monitor.o: src/Monitor.cpp.o
 
 # target to build an object file
 src/Monitor.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Monitor.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Monitor.cpp.o
 .PHONY : src/Monitor.cpp.o
 
 src/Monitor.i: src/Monitor.cpp.i
@@ -194,7 +194,7 @@ src/Monitor.i: src/Monitor.cpp.i
 
 # target to preprocess a source file
 src/Monitor.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Monitor.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Monitor.cpp.i
 .PHONY : src/Monitor.cpp.i
 
 src/Monitor.s: src/Monitor.cpp.s
@@ -203,7 +203,7 @@ src/Monitor.s: src/Monitor.cpp.s
 
 # target to generate assembly for a file
 src/Monitor.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Monitor.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Monitor.cpp.s
 .PHONY : src/Monitor.cpp.s
 
 src/Renderer.o: src/Renderer.cpp.o
@@ -212,7 +212,7 @@ src/Renderer.o: src/Renderer.cpp.o
 
 # target to build an object file
 src/Renderer.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Renderer.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Renderer.cpp.o
 .PHONY : src/Renderer.cpp.o
 
 src/Renderer.i: src/Renderer.cpp.i
@@ -221,7 +221,7 @@ src/Renderer.i: src/Renderer.cpp.i
 
 # target to preprocess a source file
 src/Renderer.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Renderer.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Renderer.cpp.i
 .PHONY : src/Renderer.cpp.i
 
 src/Renderer.s: src/Renderer.cpp.s
@@ -230,7 +230,7 @@ src/Renderer.s: src/Renderer.cpp.s
 
 # target to generate assembly for a file
 src/Renderer.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Renderer.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
 src/SDLLoader.o: src/SDLLoader.cpp.o
@@ -239,7 +239,7 @@ src/SDLLoader.o: src/SDLLoader.cpp.o
 
 # target to build an object file
 src/SDLLoader.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/SDLLoader.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/SDLLoader.cpp.o
 .PHONY : src/SDLLoader.cpp.o
 
 src/SDLLoader.i: src/SDLLoader.cpp.i
@@ -248,7 +248,7 @@ src/SDLLoader.i: src/SDLLoader.cpp.i
 
 # target to preprocess a source file
 src/SDLLoader.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/SDLLoader.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/SDLLoader.cpp.i
 .PHONY : src/SDLLoader.cpp.i
 
 src/SDLLoader.s: src/SDLLoader.cpp.s
@@ -257,7 +257,7 @@ src/SDLLoader.s: src/SDLLoader.cpp.s
 
 # target to generate assembly for a file
 src/SDLLoader.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/SDLLoader.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/SDLLoader.cpp.s
 .PHONY : src/SDLLoader.cpp.s
 
 src/Texture.o: src/Texture.cpp.o
@@ -266,7 +266,7 @@ src/Texture.o: src/Texture.cpp.o
 
 # target to build an object file
 src/Texture.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Texture.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Texture.cpp.o
 .PHONY : src/Texture.cpp.o
 
 src/Texture.i: src/Texture.cpp.i
@@ -275,7 +275,7 @@ src/Texture.i: src/Texture.cpp.i
 
 # target to preprocess a source file
 src/Texture.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Texture.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Texture.cpp.i
 .PHONY : src/Texture.cpp.i
 
 src/Texture.s: src/Texture.cpp.s
@@ -284,8 +284,35 @@ src/Texture.s: src/Texture.cpp.s
 
 # target to generate assembly for a file
 src/Texture.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Texture.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/Texture.cpp.s
 .PHONY : src/Texture.cpp.s
+
+src/config/ConfigApplier.o: src/config/ConfigApplier.cpp.o
+
+.PHONY : src/config/ConfigApplier.o
+
+# target to build an object file
+src/config/ConfigApplier.cpp.o:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/config/ConfigApplier.cpp.o
+.PHONY : src/config/ConfigApplier.cpp.o
+
+src/config/ConfigApplier.i: src/config/ConfigApplier.cpp.i
+
+.PHONY : src/config/ConfigApplier.i
+
+# target to preprocess a source file
+src/config/ConfigApplier.cpp.i:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/config/ConfigApplier.cpp.i
+.PHONY : src/config/ConfigApplier.cpp.i
+
+src/config/ConfigApplier.s: src/config/ConfigApplier.cpp.s
+
+.PHONY : src/config/ConfigApplier.s
+
+# target to generate assembly for a file
+src/config/ConfigApplier.cpp.s:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/config/ConfigApplier.cpp.s
+.PHONY : src/config/ConfigApplier.cpp.s
 
 src/containers/ImageContainer.o: src/containers/ImageContainer.cpp.o
 
@@ -293,7 +320,7 @@ src/containers/ImageContainer.o: src/containers/ImageContainer.cpp.o
 
 # target to build an object file
 src/containers/ImageContainer.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/ImageContainer.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/ImageContainer.cpp.o
 .PHONY : src/containers/ImageContainer.cpp.o
 
 src/containers/ImageContainer.i: src/containers/ImageContainer.cpp.i
@@ -302,7 +329,7 @@ src/containers/ImageContainer.i: src/containers/ImageContainer.cpp.i
 
 # target to preprocess a source file
 src/containers/ImageContainer.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/ImageContainer.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/ImageContainer.cpp.i
 .PHONY : src/containers/ImageContainer.cpp.i
 
 src/containers/ImageContainer.s: src/containers/ImageContainer.cpp.s
@@ -311,8 +338,35 @@ src/containers/ImageContainer.s: src/containers/ImageContainer.cpp.s
 
 # target to generate assembly for a file
 src/containers/ImageContainer.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/ImageContainer.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/ImageContainer.cpp.s
 .PHONY : src/containers/ImageContainer.cpp.s
+
+src/containers/MusicContainer.o: src/containers/MusicContainer.cpp.o
+
+.PHONY : src/containers/MusicContainer.o
+
+# target to build an object file
+src/containers/MusicContainer.cpp.o:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/MusicContainer.cpp.o
+.PHONY : src/containers/MusicContainer.cpp.o
+
+src/containers/MusicContainer.i: src/containers/MusicContainer.cpp.i
+
+.PHONY : src/containers/MusicContainer.i
+
+# target to preprocess a source file
+src/containers/MusicContainer.cpp.i:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/MusicContainer.cpp.i
+.PHONY : src/containers/MusicContainer.cpp.i
+
+src/containers/MusicContainer.s: src/containers/MusicContainer.cpp.s
+
+.PHONY : src/containers/MusicContainer.s
+
+# target to generate assembly for a file
+src/containers/MusicContainer.cpp.s:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/MusicContainer.cpp.s
+.PHONY : src/containers/MusicContainer.cpp.s
 
 src/containers/SoundContainer.o: src/containers/SoundContainer.cpp.o
 
@@ -320,7 +374,7 @@ src/containers/SoundContainer.o: src/containers/SoundContainer.cpp.o
 
 # target to build an object file
 src/containers/SoundContainer.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.o
 .PHONY : src/containers/SoundContainer.cpp.o
 
 src/containers/SoundContainer.i: src/containers/SoundContainer.cpp.i
@@ -329,7 +383,7 @@ src/containers/SoundContainer.i: src/containers/SoundContainer.cpp.i
 
 # target to preprocess a source file
 src/containers/SoundContainer.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.i
 .PHONY : src/containers/SoundContainer.cpp.i
 
 src/containers/SoundContainer.s: src/containers/SoundContainer.cpp.s
@@ -338,7 +392,7 @@ src/containers/SoundContainer.s: src/containers/SoundContainer.cpp.s
 
 # target to generate assembly for a file
 src/containers/SoundContainer.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.s
 .PHONY : src/containers/SoundContainer.cpp.s
 
 src/containers/TextContainer.o: src/containers/TextContainer.cpp.o
@@ -347,7 +401,7 @@ src/containers/TextContainer.o: src/containers/TextContainer.cpp.o
 
 # target to build an object file
 src/containers/TextContainer.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.o
 .PHONY : src/containers/TextContainer.cpp.o
 
 src/containers/TextContainer.i: src/containers/TextContainer.cpp.i
@@ -356,7 +410,7 @@ src/containers/TextContainer.i: src/containers/TextContainer.cpp.i
 
 # target to preprocess a source file
 src/containers/TextContainer.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.i
 .PHONY : src/containers/TextContainer.cpp.i
 
 src/containers/TextContainer.s: src/containers/TextContainer.cpp.s
@@ -365,35 +419,8 @@ src/containers/TextContainer.s: src/containers/TextContainer.cpp.s
 
 # target to generate assembly for a file
 src/containers/TextContainer.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.s
 .PHONY : src/containers/TextContainer.cpp.s
-
-src/tools/AutoResLoader.o: src/tools/AutoResLoader.cpp.o
-
-.PHONY : src/tools/AutoResLoader.o
-
-# target to build an object file
-src/tools/AutoResLoader.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/tools/AutoResLoader.cpp.o
-.PHONY : src/tools/AutoResLoader.cpp.o
-
-src/tools/AutoResLoader.i: src/tools/AutoResLoader.cpp.i
-
-.PHONY : src/tools/AutoResLoader.i
-
-# target to preprocess a source file
-src/tools/AutoResLoader.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/tools/AutoResLoader.cpp.i
-.PHONY : src/tools/AutoResLoader.cpp.i
-
-src/tools/AutoResLoader.s: src/tools/AutoResLoader.cpp.s
-
-.PHONY : src/tools/AutoResLoader.s
-
-# target to generate assembly for a file
-src/tools/AutoResLoader.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f sdl_utils/CMakeFiles/sdl_utils.dir/build.make sdl_utils/CMakeFiles/sdl_utils.dir/src/tools/AutoResLoader.cpp.s
-.PHONY : src/tools/AutoResLoader.cpp.s
 
 # Help Target
 help:
@@ -422,18 +449,21 @@ help:
 	@echo "... src/Texture.o"
 	@echo "... src/Texture.i"
 	@echo "... src/Texture.s"
+	@echo "... src/config/ConfigApplier.o"
+	@echo "... src/config/ConfigApplier.i"
+	@echo "... src/config/ConfigApplier.s"
 	@echo "... src/containers/ImageContainer.o"
 	@echo "... src/containers/ImageContainer.i"
 	@echo "... src/containers/ImageContainer.s"
+	@echo "... src/containers/MusicContainer.o"
+	@echo "... src/containers/MusicContainer.i"
+	@echo "... src/containers/MusicContainer.s"
 	@echo "... src/containers/SoundContainer.o"
 	@echo "... src/containers/SoundContainer.i"
 	@echo "... src/containers/SoundContainer.s"
 	@echo "... src/containers/TextContainer.o"
 	@echo "... src/containers/TextContainer.i"
 	@echo "... src/containers/TextContainer.s"
-	@echo "... src/tools/AutoResLoader.o"
-	@echo "... src/tools/AutoResLoader.i"
-	@echo "... src/tools/AutoResLoader.s"
 .PHONY : help
 
 
@@ -445,6 +475,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smeshan/workspace/buttons/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

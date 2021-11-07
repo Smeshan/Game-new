@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/smeshan/workspace/console type"
+CMAKE_SOURCE_DIR = /home/smeshan/workspace/buttons
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/smeshan/workspace/console type/build"
+CMAKE_BINARY_DIR = /home/smeshan/workspace/buttons/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" "/home/smeshan/workspace/console type/build/utils/CMakeFiles/progress.marks"
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 utils/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/smeshan/workspace/console type/build/CMakeFiles" 0
+	cd /home/smeshan/workspace/buttons/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/buttons/build/CMakeFiles /home/smeshan/workspace/buttons/build/utils/CMakeFiles/progress.marks
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 utils/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/smeshan/workspace/buttons/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 utils/clean
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 utils/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 utils/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/smeshan/workspace/buttons/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils/CMakeFiles/utils.dir/rule:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/utils.dir/rule
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f CMakeFiles/Makefile2 utils/CMakeFiles/utils.dir/rule
 .PHONY : utils/CMakeFiles/utils.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ utils: utils/CMakeFiles/utils.dir/rule
 
 # fast build rule for target.
 utils/fast:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/build
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/build
 .PHONY : utils/fast
 
 src/drawing/Color.o: src/drawing/Color.cpp.o
@@ -131,7 +131,7 @@ src/drawing/Color.o: src/drawing/Color.cpp.o
 
 # target to build an object file
 src/drawing/Color.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.o
 .PHONY : src/drawing/Color.cpp.o
 
 src/drawing/Color.i: src/drawing/Color.cpp.i
@@ -140,7 +140,7 @@ src/drawing/Color.i: src/drawing/Color.cpp.i
 
 # target to preprocess a source file
 src/drawing/Color.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.i
 .PHONY : src/drawing/Color.cpp.i
 
 src/drawing/Color.s: src/drawing/Color.cpp.s
@@ -149,7 +149,7 @@ src/drawing/Color.s: src/drawing/Color.cpp.s
 
 # target to generate assembly for a file
 src/drawing/Color.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Color.cpp.s
 .PHONY : src/drawing/Color.cpp.s
 
 src/drawing/DrawParams.o: src/drawing/DrawParams.cpp.o
@@ -158,7 +158,7 @@ src/drawing/DrawParams.o: src/drawing/DrawParams.cpp.o
 
 # target to build an object file
 src/drawing/DrawParams.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.o
 .PHONY : src/drawing/DrawParams.cpp.o
 
 src/drawing/DrawParams.i: src/drawing/DrawParams.cpp.i
@@ -167,7 +167,7 @@ src/drawing/DrawParams.i: src/drawing/DrawParams.cpp.i
 
 # target to preprocess a source file
 src/drawing/DrawParams.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.i
 .PHONY : src/drawing/DrawParams.cpp.i
 
 src/drawing/DrawParams.s: src/drawing/DrawParams.cpp.s
@@ -176,7 +176,7 @@ src/drawing/DrawParams.s: src/drawing/DrawParams.cpp.s
 
 # target to generate assembly for a file
 src/drawing/DrawParams.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/DrawParams.cpp.s
 .PHONY : src/drawing/DrawParams.cpp.s
 
 src/drawing/Point.o: src/drawing/Point.cpp.o
@@ -185,7 +185,7 @@ src/drawing/Point.o: src/drawing/Point.cpp.o
 
 # target to build an object file
 src/drawing/Point.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.o
 .PHONY : src/drawing/Point.cpp.o
 
 src/drawing/Point.i: src/drawing/Point.cpp.i
@@ -194,7 +194,7 @@ src/drawing/Point.i: src/drawing/Point.cpp.i
 
 # target to preprocess a source file
 src/drawing/Point.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.i
 .PHONY : src/drawing/Point.cpp.i
 
 src/drawing/Point.s: src/drawing/Point.cpp.s
@@ -203,7 +203,7 @@ src/drawing/Point.s: src/drawing/Point.cpp.s
 
 # target to generate assembly for a file
 src/drawing/Point.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Point.cpp.s
 .PHONY : src/drawing/Point.cpp.s
 
 src/drawing/Rectangle.o: src/drawing/Rectangle.cpp.o
@@ -212,7 +212,7 @@ src/drawing/Rectangle.o: src/drawing/Rectangle.cpp.o
 
 # target to build an object file
 src/drawing/Rectangle.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.o
 .PHONY : src/drawing/Rectangle.cpp.o
 
 src/drawing/Rectangle.i: src/drawing/Rectangle.cpp.i
@@ -221,7 +221,7 @@ src/drawing/Rectangle.i: src/drawing/Rectangle.cpp.i
 
 # target to preprocess a source file
 src/drawing/Rectangle.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.i
 .PHONY : src/drawing/Rectangle.cpp.i
 
 src/drawing/Rectangle.s: src/drawing/Rectangle.cpp.s
@@ -230,7 +230,7 @@ src/drawing/Rectangle.s: src/drawing/Rectangle.cpp.s
 
 # target to generate assembly for a file
 src/drawing/Rectangle.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/drawing/Rectangle.cpp.s
 .PHONY : src/drawing/Rectangle.cpp.s
 
 src/thread/ThreadUtils.o: src/thread/ThreadUtils.cpp.o
@@ -239,7 +239,7 @@ src/thread/ThreadUtils.o: src/thread/ThreadUtils.cpp.o
 
 # target to build an object file
 src/thread/ThreadUtils.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.o
 .PHONY : src/thread/ThreadUtils.cpp.o
 
 src/thread/ThreadUtils.i: src/thread/ThreadUtils.cpp.i
@@ -248,7 +248,7 @@ src/thread/ThreadUtils.i: src/thread/ThreadUtils.cpp.i
 
 # target to preprocess a source file
 src/thread/ThreadUtils.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.i
 .PHONY : src/thread/ThreadUtils.cpp.i
 
 src/thread/ThreadUtils.s: src/thread/ThreadUtils.cpp.s
@@ -257,7 +257,7 @@ src/thread/ThreadUtils.s: src/thread/ThreadUtils.cpp.s
 
 # target to generate assembly for a file
 src/thread/ThreadUtils.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/thread/ThreadUtils.cpp.s
 .PHONY : src/thread/ThreadUtils.cpp.s
 
 src/time/Time.o: src/time/Time.cpp.o
@@ -266,7 +266,7 @@ src/time/Time.o: src/time/Time.cpp.o
 
 # target to build an object file
 src/time/Time.cpp.o:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/time/Time.cpp.o
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/time/Time.cpp.o
 .PHONY : src/time/Time.cpp.o
 
 src/time/Time.i: src/time/Time.cpp.i
@@ -275,7 +275,7 @@ src/time/Time.i: src/time/Time.cpp.i
 
 # target to preprocess a source file
 src/time/Time.cpp.i:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/time/Time.cpp.i
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/time/Time.cpp.i
 .PHONY : src/time/Time.cpp.i
 
 src/time/Time.s: src/time/Time.cpp.s
@@ -284,8 +284,116 @@ src/time/Time.s: src/time/Time.cpp.s
 
 # target to generate assembly for a file
 src/time/Time.cpp.s:
-	cd "/home/smeshan/workspace/console type/build" && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/time/Time.cpp.s
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/time/Time.cpp.s
 .PHONY : src/time/Time.cpp.s
+
+src/tools/AutoResLoader.o: src/tools/AutoResLoader.cpp.o
+
+.PHONY : src/tools/AutoResLoader.o
+
+# target to build an object file
+src/tools/AutoResLoader.cpp.o:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.o
+.PHONY : src/tools/AutoResLoader.cpp.o
+
+src/tools/AutoResLoader.i: src/tools/AutoResLoader.cpp.i
+
+.PHONY : src/tools/AutoResLoader.i
+
+# target to preprocess a source file
+src/tools/AutoResLoader.cpp.i:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.i
+.PHONY : src/tools/AutoResLoader.cpp.i
+
+src/tools/AutoResLoader.s: src/tools/AutoResLoader.cpp.s
+
+.PHONY : src/tools/AutoResLoader.s
+
+# target to generate assembly for a file
+src/tools/AutoResLoader.cpp.s:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/AutoResLoader.cpp.s
+.PHONY : src/tools/AutoResLoader.cpp.s
+
+src/tools/ConfigExtractor.o: src/tools/ConfigExtractor.cpp.o
+
+.PHONY : src/tools/ConfigExtractor.o
+
+# target to build an object file
+src/tools/ConfigExtractor.cpp.o:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigExtractor.cpp.o
+.PHONY : src/tools/ConfigExtractor.cpp.o
+
+src/tools/ConfigExtractor.i: src/tools/ConfigExtractor.cpp.i
+
+.PHONY : src/tools/ConfigExtractor.i
+
+# target to preprocess a source file
+src/tools/ConfigExtractor.cpp.i:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigExtractor.cpp.i
+.PHONY : src/tools/ConfigExtractor.cpp.i
+
+src/tools/ConfigExtractor.s: src/tools/ConfigExtractor.cpp.s
+
+.PHONY : src/tools/ConfigExtractor.s
+
+# target to generate assembly for a file
+src/tools/ConfigExtractor.cpp.s:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigExtractor.cpp.s
+.PHONY : src/tools/ConfigExtractor.cpp.s
+
+src/tools/ConfigProcessor.o: src/tools/ConfigProcessor.cpp.o
+
+.PHONY : src/tools/ConfigProcessor.o
+
+# target to build an object file
+src/tools/ConfigProcessor.cpp.o:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.o
+.PHONY : src/tools/ConfigProcessor.cpp.o
+
+src/tools/ConfigProcessor.i: src/tools/ConfigProcessor.cpp.i
+
+.PHONY : src/tools/ConfigProcessor.i
+
+# target to preprocess a source file
+src/tools/ConfigProcessor.cpp.i:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.i
+.PHONY : src/tools/ConfigProcessor.cpp.i
+
+src/tools/ConfigProcessor.s: src/tools/ConfigProcessor.cpp.s
+
+.PHONY : src/tools/ConfigProcessor.s
+
+# target to generate assembly for a file
+src/tools/ConfigProcessor.cpp.s:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigProcessor.cpp.s
+.PHONY : src/tools/ConfigProcessor.cpp.s
+
+src/tools/ConfigValidator.o: src/tools/ConfigValidator.cpp.o
+
+.PHONY : src/tools/ConfigValidator.o
+
+# target to build an object file
+src/tools/ConfigValidator.cpp.o:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigValidator.cpp.o
+.PHONY : src/tools/ConfigValidator.cpp.o
+
+src/tools/ConfigValidator.i: src/tools/ConfigValidator.cpp.i
+
+.PHONY : src/tools/ConfigValidator.i
+
+# target to preprocess a source file
+src/tools/ConfigValidator.cpp.i:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigValidator.cpp.i
+.PHONY : src/tools/ConfigValidator.cpp.i
+
+src/tools/ConfigValidator.s: src/tools/ConfigValidator.cpp.s
+
+.PHONY : src/tools/ConfigValidator.s
+
+# target to generate assembly for a file
+src/tools/ConfigValidator.cpp.s:
+	cd /home/smeshan/workspace/buttons/build && $(MAKE) -f utils/CMakeFiles/utils.dir/build.make utils/CMakeFiles/utils.dir/src/tools/ConfigValidator.cpp.s
+.PHONY : src/tools/ConfigValidator.cpp.s
 
 # Help Target
 help:
@@ -314,6 +422,18 @@ help:
 	@echo "... src/time/Time.o"
 	@echo "... src/time/Time.i"
 	@echo "... src/time/Time.s"
+	@echo "... src/tools/AutoResLoader.o"
+	@echo "... src/tools/AutoResLoader.i"
+	@echo "... src/tools/AutoResLoader.s"
+	@echo "... src/tools/ConfigExtractor.o"
+	@echo "... src/tools/ConfigExtractor.i"
+	@echo "... src/tools/ConfigExtractor.s"
+	@echo "... src/tools/ConfigProcessor.o"
+	@echo "... src/tools/ConfigProcessor.i"
+	@echo "... src/tools/ConfigProcessor.s"
+	@echo "... src/tools/ConfigValidator.o"
+	@echo "... src/tools/ConfigValidator.i"
+	@echo "... src/tools/ConfigValidator.s"
 .PHONY : help
 
 
@@ -325,6 +445,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/smeshan/workspace/console type/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/smeshan/workspace/buttons/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -15,7 +15,7 @@ utils/drawing/Point.h
 ../sdl_utils/include/sdl_utils/utils/drawing/Point.h
 
 ../sdl_utils/include/sdl_utils/Media.h
-SDL_mixer.h
+SDL2/SDL_mixer.h
 -
 
 ../sdl_utils/include/sdl_utils/Monitor.h
@@ -38,24 +38,28 @@ cstdlib
 utils/drawing/DrawParams.h
 ../sdl_utils/include/sdl_utils/utils/drawing/DrawParams.h
 
-../sdl_utils/include/sdl_utils/config/ImageContainerConfig.h
+../sdl_utils/include/sdl_utils/config/ConfigApplier.h
 cstdint
 -
-vector
+
+../sdl_utils/include/sdl_utils/config/ImageContainerConfig.h
+unordered_map
 -
-string
--
+utils/tools/config/ImageConfig.h
+../sdl_utils/include/sdl_utils/config/utils/tools/config/ImageConfig.h
 
 ../sdl_utils/include/sdl_utils/config/MonitorConfig.h
 cstdlib
 -
 string
 -
-array
+utils/drawing/Point.h
+-
+
+../sdl_utils/include/sdl_utils/config/MusicContainerConfig.h
+cstdint
 -
 unordered_map
--
-utils/drawing/Point.h
 -
 
 ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
@@ -80,6 +84,16 @@ utils/drawing/Rectangle.h
 sdl_utils/config/ImageContainerConfig.h
 ../sdl_utils/include/sdl_utils/containers/sdl_utils/config/ImageContainerConfig.h
 
+../sdl_utils/include/sdl_utils/containers/MusicContainer.h
+cstdint
+-
+unordered_map
+-
+sdl_utils/config/MusicContainerConfig.h
+../sdl_utils/include/sdl_utils/containers/sdl_utils/config/MusicContainerConfig.h
+sdl_utils/Media.h
+../sdl_utils/include/sdl_utils/containers/sdl_utils/Media.h
+
 ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
 cstdint
 -
@@ -96,16 +110,6 @@ unordered_map
 sdl_utils/config/TextContainerConfig.h
 ../sdl_utils/include/sdl_utils/containers/sdl_utils/config/TextContainerConfig.h
 
-../sdl_utils/include/sdl_utils/tools/AutoResLoader.h
-dirent.h
--
-vector
--
-string
--
-utils/common/CommonPaths.h
-../sdl_utils/include/sdl_utils/tools/utils/common/CommonPaths.h
-
 ../utils/include/utils/common/CommonPaths.h
 string
 -
@@ -121,6 +125,8 @@ cstdint
 -
 utils/drawing/Point.h
 ../utils/include/utils/drawing/utils/drawing/Point.h
+utils/drawing/Rectangle.h
+../utils/include/utils/drawing/utils/drawing/Rectangle.h
 
 ../utils/include/utils/drawing/Point.h
 cstdlib
@@ -136,31 +142,47 @@ utils/drawing/Point.h
 cstdint
 -
 
+../utils/include/utils/tools/ConfigExtractor.h
+string
+-
+vector
+-
+
 ../utils/include/utils/tools/ConfigValidator.h
-iostream
+string
+-
+cstdint
+-
+
+../utils/include/utils/tools/config/ImageConfig.h
+cstdint
 -
 string
 -
+vector
+-
+utils/drawing/Rectangle.h
+../utils/include/utils/tools/config/utils/drawing/Rectangle.h
 
-/home/smeshan/workspace/console type/sdl_utils/src/InputEvent.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/InputEvent.cpp
 sdl_utils/InputEvent.h
-/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/InputEvent.h
+/home/smeshan/workspace/buttons/sdl_utils/src/sdl_utils/InputEvent.h
 iostream
 -
 SDL_events.h
 -
 
-/home/smeshan/workspace/console type/sdl_utils/src/Media.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/Media.cpp
 sdl_utils/Media.h
-/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Media.h
+/home/smeshan/workspace/buttons/sdl_utils/src/sdl_utils/Media.h
 iostream
 -
 cstdint
 -
 
-/home/smeshan/workspace/console type/sdl_utils/src/Monitor.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/Monitor.cpp
 sdl_utils/Monitor.h
-/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Monitor.h
+/home/smeshan/workspace/buttons/sdl_utils/src/sdl_utils/Monitor.h
 iostream
 -
 SDL.h
@@ -170,9 +192,9 @@ SDL_video.h
 sdl_utils/config/MonitorConfig.h
 -
 
-/home/smeshan/workspace/console type/sdl_utils/src/Renderer.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/Renderer.cpp
 sdl_utils/Renderer.h
-/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Renderer.h
+/home/smeshan/workspace/buttons/sdl_utils/src/sdl_utils/Renderer.h
 iostream
 -
 SDL_hints.h
@@ -180,11 +202,11 @@ SDL_hints.h
 SDL_render.h
 -
 sdl_utils/Texture.h
-/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Texture.h
+/home/smeshan/workspace/buttons/sdl_utils/src/sdl_utils/Texture.h
 
-/home/smeshan/workspace/console type/sdl_utils/src/SDLLoader.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/SDLLoader.cpp
 sdl_utils/SDLLoader.h
-/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/SDLLoader.h
+/home/smeshan/workspace/buttons/sdl_utils/src/sdl_utils/SDLLoader.h
 cstdlib
 -
 iostream
@@ -198,9 +220,9 @@ SDL_image.h
 SDL_mixer.h
 -
 
-/home/smeshan/workspace/console type/sdl_utils/src/Texture.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/Texture.cpp
 sdl_utils/Texture.h
-/home/smeshan/workspace/console type/sdl_utils/src/sdl_utils/Texture.h
+/home/smeshan/workspace/buttons/sdl_utils/src/sdl_utils/Texture.h
 iostream
 -
 SDL_surface.h
@@ -212,49 +234,57 @@ SDL_render.h
 SDL_ttf.h
 -
 utils/drawing/Color.h
-/home/smeshan/workspace/console type/sdl_utils/src/utils/drawing/Color.h
+/home/smeshan/workspace/buttons/sdl_utils/src/utils/drawing/Color.h
 
-/home/smeshan/workspace/console type/sdl_utils/src/containers/ImageContainer.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/config/ConfigApplier.cpp
+sdl_utils/config/ConfigApplier.h
+/home/smeshan/workspace/buttons/sdl_utils/src/config/sdl_utils/config/ConfigApplier.h
+vector
+-
+iostream
+-
+utils/tools/ConfigValidator.h
+/home/smeshan/workspace/buttons/sdl_utils/src/config/utils/tools/ConfigValidator.h
+utils/tools/ConfigExtractor.h
+/home/smeshan/workspace/buttons/sdl_utils/src/config/utils/tools/ConfigExtractor.h
+utils/common/CommonPaths.h
+/home/smeshan/workspace/buttons/sdl_utils/src/config/utils/common/CommonPaths.h
+sdl_utils/config/MonitorConfig.h
+/home/smeshan/workspace/buttons/sdl_utils/src/config/sdl_utils/config/MonitorConfig.h
+
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/ImageContainer.cpp
 sdl_utils/containers/ImageContainer.h
-/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/containers/ImageContainer.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/sdl_utils/containers/ImageContainer.h
 iostream
 -
 sdl_utils/Texture.h
-/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/Texture.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/sdl_utils/Texture.h
 
-/home/smeshan/workspace/console type/sdl_utils/src/containers/SoundContainer.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/MusicContainer.cpp
+sdl_utils/containers/MusicContainer.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/sdl_utils/containers/MusicContainer.h
+iostream
+-
+
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/SoundContainer.cpp
 sdl_utils/containers/SoundContainer.h
-/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/containers/SoundContainer.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/sdl_utils/containers/SoundContainer.h
 iostream
 -
 sdl_utils/Media.h
-/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/Media.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/sdl_utils/Media.h
 
-/home/smeshan/workspace/console type/sdl_utils/src/containers/TextContainer.cpp
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/TextContainer.cpp
 sdl_utils/containers/TextContainer.h
-/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/containers/TextContainer.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/sdl_utils/containers/TextContainer.h
 iostream
 -
 SDL_ttf.h
 -
 utils/drawing/Color.h
-/home/smeshan/workspace/console type/sdl_utils/src/containers/utils/drawing/Color.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/utils/drawing/Color.h
 sdl_utils/Texture.h
-/home/smeshan/workspace/console type/sdl_utils/src/containers/sdl_utils/Texture.h
-
-/home/smeshan/workspace/console type/sdl_utils/src/tools/AutoResLoader.cpp
-sdl_utils/tools/AutoResLoader.h
-/home/smeshan/workspace/console type/sdl_utils/src/tools/sdl_utils/tools/AutoResLoader.h
-sstream
--
-iostream
--
-cstdint
--
-sdl_utils/config/ImageContainerConfig.h
-/home/smeshan/workspace/console type/sdl_utils/src/tools/sdl_utils/config/ImageContainerConfig.h
-utils/tools/ConfigValidator.h
-/home/smeshan/workspace/console type/sdl_utils/src/tools/utils/tools/ConfigValidator.h
+/home/smeshan/workspace/buttons/sdl_utils/src/containers/sdl_utils/Texture.h
 
 /usr/include/SDL2/SDL.h
 SDL_main.h

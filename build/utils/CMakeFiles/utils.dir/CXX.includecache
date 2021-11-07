@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../utils/include/utils/common/CommonPaths.h
+string
+-
+
 ../utils/include/utils/drawing/Color.h
 cstdlib
 -
@@ -17,6 +21,8 @@ cstdint
 -
 utils/drawing/Point.h
 ../utils/include/utils/drawing/utils/drawing/Point.h
+utils/drawing/Rectangle.h
+../utils/include/utils/drawing/utils/drawing/Rectangle.h
 
 ../utils/include/utils/drawing/Point.h
 cstdlib
@@ -38,31 +44,115 @@ chrono
 cstdlib
 -
 
-/home/smeshan/workspace/console type/utils/src/drawing/Color.cpp
-utils/drawing/Color.h
-/home/smeshan/workspace/console type/utils/src/drawing/utils/drawing/Color.h
+../utils/include/utils/tools/AutoResLoader.h
+vector
+-
+string
+-
+cstdint
+-
+utils/tools/Resource.h
+../utils/include/utils/tools/utils/tools/Resource.h
 
-/home/smeshan/workspace/console type/utils/src/drawing/DrawParams.cpp
-utils/drawing/DrawParams.h
-/home/smeshan/workspace/console type/utils/src/drawing/utils/drawing/DrawParams.h
+../utils/include/utils/tools/ConfigExtractor.h
+string
+-
+vector
+-
 
-/home/smeshan/workspace/console type/utils/src/drawing/Point.cpp
-utils/drawing/Point.h
-/home/smeshan/workspace/console type/utils/src/drawing/utils/drawing/Point.h
+../utils/include/utils/tools/ConfigProcessor.h
+vector
+-
 
-/home/smeshan/workspace/console type/utils/src/drawing/Rectangle.cpp
+../utils/include/utils/tools/ConfigValidator.h
+string
+-
+cstdint
+-
+
+../utils/include/utils/tools/Resource.h
+string
+-
+
+../utils/include/utils/tools/config/ImageConfig.h
+cstdint
+-
+string
+-
+vector
+-
 utils/drawing/Rectangle.h
-/home/smeshan/workspace/console type/utils/src/drawing/utils/drawing/Rectangle.h
+../utils/include/utils/tools/config/utils/drawing/Rectangle.h
 
-/home/smeshan/workspace/console type/utils/src/thread/ThreadUtils.cpp
+/home/smeshan/workspace/buttons/utils/src/drawing/Color.cpp
+utils/drawing/Color.h
+/home/smeshan/workspace/buttons/utils/src/drawing/utils/drawing/Color.h
+
+/home/smeshan/workspace/buttons/utils/src/drawing/DrawParams.cpp
+utils/drawing/DrawParams.h
+/home/smeshan/workspace/buttons/utils/src/drawing/utils/drawing/DrawParams.h
+
+/home/smeshan/workspace/buttons/utils/src/drawing/Point.cpp
+utils/drawing/Point.h
+/home/smeshan/workspace/buttons/utils/src/drawing/utils/drawing/Point.h
+
+/home/smeshan/workspace/buttons/utils/src/drawing/Rectangle.cpp
+utils/drawing/Rectangle.h
+/home/smeshan/workspace/buttons/utils/src/drawing/utils/drawing/Rectangle.h
+
+/home/smeshan/workspace/buttons/utils/src/thread/ThreadUtils.cpp
 utils/thread/ThreadUtils.h
-/home/smeshan/workspace/console type/utils/src/thread/utils/thread/ThreadUtils.h
+/home/smeshan/workspace/buttons/utils/src/thread/utils/thread/ThreadUtils.h
 windows.h
 -
 thread
 -
 
-/home/smeshan/workspace/console type/utils/src/time/Time.cpp
+/home/smeshan/workspace/buttons/utils/src/time/Time.cpp
 utils/time/Time.h
-/home/smeshan/workspace/console type/utils/src/time/utils/time/Time.h
+/home/smeshan/workspace/buttons/utils/src/time/utils/time/Time.h
+
+/home/smeshan/workspace/buttons/utils/src/tools/AutoResLoader.cpp
+utils/tools/AutoResLoader.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/tools/AutoResLoader.h
+dirent.h
+-
+sstream
+-
+iostream
+-
+cstdint
+-
+utils/common/CommonPaths.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/common/CommonPaths.h
+
+/home/smeshan/workspace/buttons/utils/src/tools/ConfigExtractor.cpp
+utils/tools/ConfigExtractor.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/tools/ConfigExtractor.h
+iostream
+-
+fstream
+-
+
+/home/smeshan/workspace/buttons/utils/src/tools/ConfigProcessor.cpp
+utils/tools/ConfigProcessor.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/tools/ConfigProcessor.h
+string
+-
+iostream
+-
+sstream
+-
+utils/tools/config/ImageConfig.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/tools/config/ImageConfig.h
+utils/tools/ConfigValidator.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/tools/ConfigValidator.h
+utils/tools/Resource.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/tools/Resource.h
+
+/home/smeshan/workspace/buttons/utils/src/tools/ConfigValidator.cpp
+utils/tools/ConfigValidator.h
+/home/smeshan/workspace/buttons/utils/src/tools/utils/tools/ConfigValidator.h
+iostream
+-
 

@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -Wextra -Werror -Wundef -Wuninitialized -Wreorder -Wshadow -
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/smeshan/workspace/console type/sdl_utils/include" -I/usr/include/SDL2 -I"/home/smeshan/workspace/console type/utils/include" 
+CXX_INCLUDES = -I/home/smeshan/workspace/buttons/sdl_utils/include -I/usr/include/SDL2 -I/home/smeshan/workspace/buttons/utils/include 
 

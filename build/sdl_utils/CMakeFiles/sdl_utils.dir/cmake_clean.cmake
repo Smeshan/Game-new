@@ -8,7 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sdl_utils.dir/src/containers/ImageContainer.cpp.o"
   "CMakeFiles/sdl_utils.dir/src/containers/TextContainer.cpp.o"
   "CMakeFiles/sdl_utils.dir/src/containers/SoundContainer.cpp.o"
-  "CMakeFiles/sdl_utils.dir/src/tools/AutoResLoader.cpp.o"
+  "CMakeFiles/sdl_utils.dir/src/containers/MusicContainer.cpp.o"
+  "CMakeFiles/sdl_utils.dir/src/config/ConfigApplier.cpp.o"
   "libsdl_utils.pdb"
   "libsdl_utils.a"
 )

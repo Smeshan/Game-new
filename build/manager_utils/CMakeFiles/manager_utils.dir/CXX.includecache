@@ -10,6 +10,10 @@
 cstdint
 -
 
+../manager_utils/include/manager_utils/audio/Music.h
+manager_utils/audio/Audio.h
+../manager_utils/include/manager_utils/audio/manager_utils/audio/Audio.h
+
 ../manager_utils/include/manager_utils/audio/Sound.h
 cstdint
 -
@@ -35,6 +39,8 @@ cstdint
 -
 sdl_utils/config/SoundContainerConfig.h
 ../manager_utils/include/manager_utils/config/sdl_utils/config/SoundContainerConfig.h
+sdl_utils/config/MusicContainerConfig.h
+../manager_utils/include/manager_utils/config/sdl_utils/config/MusicContainerConfig.h
 
 ../manager_utils/include/manager_utils/config/RsrcMgrConfig.h
 cstdint
@@ -60,6 +66,16 @@ utils/drawing/Color.h
 utils/drawing/DrawParams.h
 ../manager_utils/include/manager_utils/drawing/utils/drawing/DrawParams.h
 
+../manager_utils/include/manager_utils/input/ButtonBase.h
+manager_utils/drawing/Image.h
+../manager_utils/include/manager_utils/input/manager_utils/drawing/Image.h
+manager_utils/drawing/Text.h
+../manager_utils/include/manager_utils/input/manager_utils/drawing/Text.h
+
+../manager_utils/include/manager_utils/input/TextButtonBase.h
+manager_utils/drawing/Text.h
+../manager_utils/include/manager_utils/input/manager_utils/drawing/Text.h
+
 ../manager_utils/include/manager_utils/managers/DrawMgr.h
 cstdint
 -
@@ -81,6 +97,8 @@ manager_utils/managers/MgrBase.h
 ../manager_utils/include/manager_utils/managers/manager_utils/managers/MgrBase.h
 sdl_utils/containers/SoundContainer.h
 ../manager_utils/include/manager_utils/managers/sdl_utils/containers/SoundContainer.h
+sdl_utils/containers/MusicContainer.h
+../manager_utils/include/manager_utils/managers/sdl_utils/containers/MusicContainer.h
 
 ../manager_utils/include/manager_utils/managers/MgrBase.h
 
@@ -91,6 +109,18 @@ sdl_utils/containers/ImageContainer.h
 ../manager_utils/include/manager_utils/managers/sdl_utils/containers/ImageContainer.h
 sdl_utils/containers/TextContainer.h
 ../manager_utils/include/manager_utils/managers/sdl_utils/containers/TextContainer.h
+
+../sdl_utils/include/sdl_utils/InputEvent.h
+cstdlib
+-
+utils/input/EventDefines.h
+../sdl_utils/include/sdl_utils/utils/input/EventDefines.h
+utils/drawing/Point.h
+../sdl_utils/include/sdl_utils/utils/drawing/Point.h
+
+../sdl_utils/include/sdl_utils/Media.h
+SDL2/SDL_mixer.h
+-
 
 ../sdl_utils/include/sdl_utils/Monitor.h
 cstdlib
@@ -103,23 +133,23 @@ utils/drawing/DrawParams.h
 ../sdl_utils/include/sdl_utils/utils/drawing/DrawParams.h
 
 ../sdl_utils/include/sdl_utils/config/ImageContainerConfig.h
-cstdint
+unordered_map
 -
-vector
--
-string
--
+utils/tools/config/ImageConfig.h
+../sdl_utils/include/sdl_utils/config/utils/tools/config/ImageConfig.h
 
 ../sdl_utils/include/sdl_utils/config/MonitorConfig.h
 cstdlib
 -
 string
 -
-array
+utils/drawing/Point.h
+-
+
+../sdl_utils/include/sdl_utils/config/MusicContainerConfig.h
+cstdint
 -
 unordered_map
--
-utils/drawing/Point.h
 -
 
 ../sdl_utils/include/sdl_utils/config/SoundContainerConfig.h
@@ -143,6 +173,16 @@ utils/drawing/Rectangle.h
 ../sdl_utils/include/sdl_utils/containers/utils/drawing/Rectangle.h
 sdl_utils/config/ImageContainerConfig.h
 ../sdl_utils/include/sdl_utils/containers/sdl_utils/config/ImageContainerConfig.h
+
+../sdl_utils/include/sdl_utils/containers/MusicContainer.h
+cstdint
+-
+unordered_map
+-
+sdl_utils/config/MusicContainerConfig.h
+../sdl_utils/include/sdl_utils/containers/sdl_utils/config/MusicContainerConfig.h
+sdl_utils/Media.h
+../sdl_utils/include/sdl_utils/containers/sdl_utils/Media.h
 
 ../sdl_utils/include/sdl_utils/containers/SoundContainer.h
 cstdint
@@ -171,6 +211,8 @@ cstdint
 -
 utils/drawing/Point.h
 ../utils/include/utils/drawing/utils/drawing/Point.h
+utils/drawing/Rectangle.h
+../utils/include/utils/drawing/utils/drawing/Rectangle.h
 
 ../utils/include/utils/drawing/Point.h
 cstdlib
@@ -182,83 +224,121 @@ cstdlib
 utils/drawing/Point.h
 ../utils/include/utils/drawing/utils/drawing/Point.h
 
-/home/smeshan/workspace/console type/manager_utils/src/audio/Audio.cpp
+../utils/include/utils/input/EventDefines.h
+cstdint
+-
+
+../utils/include/utils/tools/config/ImageConfig.h
+cstdint
+-
+string
+-
+vector
+-
+utils/drawing/Rectangle.h
+../utils/include/utils/tools/config/utils/drawing/Rectangle.h
+
+/home/smeshan/workspace/buttons/manager_utils/src/audio/Audio.cpp
 manager_utils/audio/Audio.h
-/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/audio/Audio.h
+/home/smeshan/workspace/buttons/manager_utils/src/audio/manager_utils/audio/Audio.h
 iostream
 -
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
 
-/home/smeshan/workspace/console type/manager_utils/src/audio/Sound.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/audio/Music.cpp
+manager_utils/audio/Music.h
+/home/smeshan/workspace/buttons/manager_utils/src/audio/manager_utils/audio/Music.h
+iostream
+-
+manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
+
+/home/smeshan/workspace/buttons/manager_utils/src/audio/Sound.cpp
 manager_utils/audio/Sound.h
-/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/audio/Sound.h
+/home/smeshan/workspace/buttons/manager_utils/src/audio/manager_utils/audio/Sound.h
 iostream
 -
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/audio/manager_utils/managers/MediaMgr.h
 
-/home/smeshan/workspace/console type/manager_utils/src/drawing/Image.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/Image.cpp
 manager_utils/drawing/Image.h
-/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/drawing/Image.h
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/manager_utils/drawing/Image.h
 iostream
 -
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
 
-/home/smeshan/workspace/console type/manager_utils/src/drawing/Text.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/Text.cpp
 manager_utils/drawing/Text.h
-/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/drawing/Text.h
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/manager_utils/drawing/Text.h
 iostream
 -
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/manager_utils/managers/RsrcMgr.h
 
-/home/smeshan/workspace/console type/manager_utils/src/drawing/Widget.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/Widget.cpp
 manager_utils/drawing/Widget.h
-/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/drawing/Widget.h
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/manager_utils/drawing/Widget.h
 iostream
 -
 manager_utils/managers/DrawMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/drawing/manager_utils/managers/DrawMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/drawing/manager_utils/managers/DrawMgr.h
 
-/home/smeshan/workspace/console type/manager_utils/src/managers/DrawMgr.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/input/ButtonBase.cpp
+manager_utils/input/ButtonBase.h
+/home/smeshan/workspace/buttons/manager_utils/src/input/manager_utils/input/ButtonBase.h
+sdl_utils/InputEvent.h
+/home/smeshan/workspace/buttons/manager_utils/src/input/sdl_utils/InputEvent.h
+
+/home/smeshan/workspace/buttons/manager_utils/src/input/TextButtonBase.cpp
+manager_utils/input/TextButtonBase.h
+/home/smeshan/workspace/buttons/manager_utils/src/input/manager_utils/input/TextButtonBase.h
+iostream
+-
+sdl_utils/InputEvent.h
+/home/smeshan/workspace/buttons/manager_utils/src/input/sdl_utils/InputEvent.h
+utils/drawing/Rectangle.h
+/home/smeshan/workspace/buttons/manager_utils/src/input/utils/drawing/Rectangle.h
+
+/home/smeshan/workspace/buttons/manager_utils/src/managers/DrawMgr.cpp
 manager_utils/managers/DrawMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
 iostream
 -
 manager_utils/config/DrawMgrConfig.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/DrawMgrConfig.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/config/DrawMgrConfig.h
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
 
-/home/smeshan/workspace/console type/manager_utils/src/managers/ManagerHandler.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/managers/ManagerHandler.cpp
 manager_utils/managers/ManagerHandler.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/ManagerHandler.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/ManagerHandler.h
 iostream
 -
 manager_utils/config/ManagerHandlerConfig.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/ManagerHandlerConfig.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/config/ManagerHandlerConfig.h
 manager_utils/managers/DrawMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/DrawMgr.h
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
 
-/home/smeshan/workspace/console type/manager_utils/src/managers/MediaMgr.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/managers/MediaMgr.cpp
 manager_utils/managers/MediaMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/MediaMgr.h
 iostream
 -
 manager_utils/config/MediaMgrConfig.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/MediaMgrConfig.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/config/MediaMgrConfig.h
 
-/home/smeshan/workspace/console type/manager_utils/src/managers/RsrcMgr.cpp
+/home/smeshan/workspace/buttons/manager_utils/src/managers/RsrcMgr.cpp
 manager_utils/managers/RsrcMgr.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/managers/RsrcMgr.h
 iostream
 -
 manager_utils/config/RsrcMgrConfig.h
-/home/smeshan/workspace/console type/manager_utils/src/managers/manager_utils/config/RsrcMgrConfig.h
+/home/smeshan/workspace/buttons/manager_utils/src/managers/manager_utils/config/RsrcMgrConfig.h
 
